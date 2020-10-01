@@ -1,0 +1,24 @@
+theme:
+  name: material
+  favicon: favicon.ico
+  palette:
+    scheme: default
+  features:
+    - tabs
+  icon:
+    repo: fontawesome/brands/github
+
+site_name: EPCC SAFE User Documentation
+repo_url: https://github.com/EPCCed/safe-docs
+repo_name: EPCCed/safe-docs
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/EPCCed
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/EPCCed
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences

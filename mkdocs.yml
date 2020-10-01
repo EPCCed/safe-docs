@@ -1,6 +1,5 @@
 theme:
   name: material
-  favicon: favicon.ico
   palette:
     scheme: default
   features:
@@ -22,3 +21,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+
+nav:
+  - "Documentation overview": index.md
+  - "SAFE for users": safe-for-users.md
+  - "SAFE for PIs and Project Managers": safe-for-managers.md

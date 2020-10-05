@@ -8,12 +8,12 @@ This section covers the use of SAFE to:
 
 !!! warning
     This document is currently under development and may be incomplete and/or misleading in places.
-    Please continue to refer to the <a href="http://www.archer.ac.uk/documentation/safe-guide/">existing documentation</a> until this work is completed and this warning removed.
+    Please continue to refer to the[existing documentation](http://www.archer.ac.uk/documentation/safe-guide/) until this work is completed and this warning removed.
 
 
 
 
-Principal Investigators (grant holders) can manage their allocations efficiently via <a href="https://safe.epcc.ed.ac.uk">SAFE</a>
+Principal Investigators (grant holders) can manage their allocations efficiently via [SAFE](https://safe.epcc.ed.ac.uk)
 
 <!--
 
@@ -90,11 +90,10 @@ Principal Investigators (grant holders) can manage their allocations efficiently
 ### <a name="activate"></a>How to activate your new allocation
 
 
-After your application for access to ARCHER2 has been approved by the relevant funding body, your new allocation will need to be activated. This can be 	done by sending an email to <a  href="mailto:support@archer2.ac.uk">ARCHER2 Service desk</a>. Please quote your grant reference number, the start and 	the end date of the grant, and the name of the PI.
+After your application for access to ARCHER2 has been approved by the relevant funding body, your new allocation will need to be activated. This can be 	done by sending an email to [ARCHER2 Service desk](mailto:support@archer2.ac.uk). Please quote your grant reference number, the start and 	the end date of the grant, and the name of the PI.
 
+The details will be checked and your new allocation will be set up on the service machine. If your new allocation is a follow-on to your existing  project, you can request for it to be set up as a new [period allocation](#period) under the same project. Alternatively you can request for it to be set up as a new project. Once the project is set up, the PI will receive an email with all the project details.
 
-The details will be checked and your new allocation will be set up on the service machine. If your new allocation is a follow-on to your existing  project, 	you can request for it to be set up as a new <a href="#period">period 		allocation</a> under the same project. Alternatively you can request 	for it to be set up as a new project. Once the project is set up, the 	PI will receive an email with all the project details.
-</p>
 
 
 ### <a id="andnext"></a>Your allocation has been set up as a project on the service. Your first steps.
@@ -163,7 +162,7 @@ You can view and manage your period allocation via SAFE.
 
 [Login to SAFE](../safe-for-users#login). Then:
 
-- Go to the Menu *Projects  * and select the *project* 		you wish to work with 
+- Go to the Menu *Projects* and select the *project* you wish to work with 
 - This will display a screen with a variety of options for managing 		the project.
 - Scroll down to Time Budgets and Click on *Manage Group Time Allocations*
 - Click on the small arrow beside *How to Manage Your Budgets* for detailed instructions.
@@ -176,13 +175,13 @@ You will then see the details of your current live allocation.
 
     You can skip between the period allocations by clicking on the "Next period>>>"  and "<<< Previous period"  buttons at the bottom of the page.
 
-1. <b>Resource Pool (machine)</b>. "XC" refers to ARCHER.
-1. <b>Allocation</b>
-1. <b>Dates</b> It is possible to have multiple successive period allocations, but they can never overlap if they are for the same resource pool. Before carrying out any project management tasks please check the dates and make sure you are managing the correct allocation.
+1. **Resource Pool (machine)**. "XC" refers to ARCHER.
+1. **Allocation**
+1. **Dates** It is possible to have multiple successive period allocations, but they can never overlap if they are for the same resource pool. Before carrying out any project management tasks please check the dates and make sure you are managing the correct allocation.
 You can skip between the period allocations by clicking on the "Next period>>>" and "<<< Previous period"  buttons at the bottom of the page.
 
 
-You can manage the allocation by <a href="#projgrp">setting up project groups</a> and <a href="#mvtime">allocating compute time to project  groups</a>.
+You can manage the allocation by [setting up project groups](#projgrp) and [allocating compute time to project groups]("#mvtime).
 Project management tasks for the period allocation can be carried out at any time, but the allocation will be active, i.e. usable, only between the specified dates. Thus, you can set up project groups in advance.
 
 
@@ -193,7 +192,7 @@ Project groups can be used to administer time and other resources within your pr
 [Login to SAFE](../safe-for-users#login) Then:
 
 
-1. Go to the Menu *Projects * and select the *project* you wish to create the group
+1. Go to the Menu *Projects* and select the *project* you wish to create the group
 
 1. This will display a screen with a variety of options for managing the project.
 1. Click the small arrow beside *Project Groups* to expand this section
@@ -239,7 +238,7 @@ It has no members, so no one can use the time in its budget. This budget can be 
 
 
 
-Initially, all your time is in the general group's budget. If you are 	happy with all your users using the same budget, you can leave things as they are.
+Initially, all your time is in the general group's budget. If you are  happy with all your users using the same budget, you can leave things as they are.
 
 If you wish to divide the time up between groups, you can [create a project group](#projgrp) for each group. In this case you will probably want to move all the time out the general group, since this can be used by everyone. 
 
@@ -261,8 +260,6 @@ other project groups.
 [Login to SAFE](../safe-for-users#login), and then:
 
 
-
-	
 1. Go to the Menu *Projects* and select the *project* you wish to work with. This displays a panel with information for the project.
 
 1. Scroll down to *Time Budgets*
@@ -281,10 +278,9 @@ Do not forget the Submit step, or nothing will happen.
 As all the time in a project group is shared by all its members, the only way to reserve some time for a single user is to create a project group for that user alone.
 
 
-1. <a href="#projgrp">Create a new project group</a> for the user. For example, if we are in project *t01* and the user is *fred*, you might call the new project group *t01-fred*
-1. <a href="#addu">Add the user to the new project group</a>
-1. <a href="#mvtime">Move the time</a> you wish the user to have into the new project group
-
+1. [Create a new project group](#projgrp) for the user. For example, if we are in project *t01* and the user is *fred*, you might call the new project group *t01-fred*
+1. [Add the user to the new project group](#addu)
+1. [Move the time](#mvtime) you wish the user to have into the new project group
 
 Remember that time in the general group's budget is accessible to all, so you will probably want to move all of the project's time away from there.
 
@@ -294,15 +290,14 @@ Remember that time in the general group's budget is accessible to all, so you wi
 Start by reading the discussion of the [administration of time](#time), as the administration of disk space is related to this, and is also done using project groups. The two project groups which 	exist in each project can also be used for administering space.
 
 - The *general group*, which has the same code as the project itself, includes every member of the project. The disk quotas of this project group can therefore be used by them all.
-- The *reserve* project group, which has a name of form *t01-reserve*, 		has no members, so no one can use the disk space which is in its quotas. You can use these quotas to hold space which you want to hold in reserve for later.
-
+- The *reserve* project group, which has a name of form *t01-reserve*, has no members, so no one can use the disk space which is in its quotas. You can use these quotas to hold space which you want to hold in reserve for later.
 
 Homespace and workspace are administered separately. A project has an overall limit for each of these. Within that limit, every portion of space must belong to one or other of the project group quotas. Thus, to 	start with, all the homespace (for example) allocated to a project is either in the general homespace quota or the reserve homespace quota.
 Space never belongs to more than one group quota. [The reserve quota is not a real quota, in fact. It has no existence on the service machine - just in the database.]
 
 Beyond the general and reserve quotas, you can also have quotas for the project groups which you create. But this is not compulsory. If you're thinking about using project group quotas, you need to be aware that they are implemented using Unix groups, which are only just adequate for the task.
 
-Let's use homespace as an example&mdash;workspace is similar. Suppose you are project *t01*. To start with, one Unix group will be assigned to this project. The homespace directories for all users will be in directory 	`/home/t01/t01/` &mdash; this is where the general group is held. User *john*, for example, will have directory `/home/t01/t01/john/` as his homespace directory. (In fact, if this is the first project he joined, that's where he will log in.) Any file created in any of the directories under `/home/t01/t01/` will belong to the Unix group for project *t01*.
+Let's use homespace as an example &mdash; workspace is similar. Suppose you are project *t01*. To start with, one Unix group will be assigned to this project. The homespace directories for all users will be in directory `/home/t01/t01/` &mdash; this is where the general group is held. User *john*, for example, will have directory `/home/t01/t01/john/` as his homespace directory. (In fact, if this is the first project he joined, that's where he will log in.) Any file created in any of the directories under `/home/t01/t01/` will belong to the Unix group for project *t01*.
 
 
 If you create a project group *t01-a* with no homespace quota, this will not change. But the moment you give a homespace quota to this project group, a Unix group will be assigned to it and a directory will be created for it: `/home/t01/t01-a/`
@@ -335,7 +330,7 @@ If you are still determined to use project group quotas, this is how.
 [Login to SAFE](../safe-for-users#login) Then:
 
 
-1. Go to the Menu *Projects * and select the *project* you wish to work on. This will display a panel with the project information.
+1. Go to the Menu *Projects* and select the *project* you wish to work on. This will display a panel with the project information.
 1. Scroll down and click the small arrow beside "Disk Quotas" to expand the section. 
 1. In the *Group Quotas* section, click on button beside the File System you wish to work on.	
 1. You will now see a list of your project groups, including the general and reserve groups. Project groups which have no quota will show the note *No quota set*
@@ -419,10 +414,10 @@ A project manager can do everything in a project that a PI can do, except design
 
  
 1. Make sure the user has an account in your project.
-1. <a href="../safe-for-users#login">Login to SAFE</a>.
+1. [Login to SAFE](../safe-for-users#login)
 1. Go to the Menu *Projects* and select the *project* you wish to appoint a project manager for. This will display a screen with a variety of options for managing the project.
 1. Scroll down to "Manage members"
-1. Click *Add project manager *
+1. Click *Add project manager*
 1. A drop down list will be displayed which contains all the users within the project. Select the user you wish to make a manager and click *Add*
 
 
@@ -447,7 +442,7 @@ A project sub-group manager can only move time and disk quota between the groups
 
 		
 1. Make sure the user has an account in your project.
-1. <a href="../safe-for-users#login">Login to SAFE</a>.
+1. [Login to SAFE](../safe-for-users#login).
 1. Go to the Menu *Projects* and select the *project* you wish to appoint a project sub-group manager for. 
 1. Scroll down to project groups and click on the small arrow beside *Project Groups* to expand and display all the groups in the project.
 1. Select the project-subgroup that you wish to assign a sub-group manager for. 		
@@ -461,9 +456,6 @@ To add users to the new project group, see the next question. A user can belong 
 
 
 [Login to SAFE](../safe-for-users#login). Then:
-
-
-
 		
 1. Go to the Menu *Projects* and select the *project* you wish to are work on. 
 1. Scroll down to project groups and click on the small arrow beside *Project Groups* to expand and display all the groups in the project.
@@ -536,7 +528,7 @@ This can be done using the Report Generator
 
 [Login to SAFE](../safe-for-users#login) Then:
 
-1. Go to the Menu *Projects * and select the *project* you wish to work on. This will display a screen with a variety of options for managing the project.
+1. Go to the Menu *Projects* and select the *project* you wish to work on. This will display a screen with a variety of options for managing the project.
 1. Click on *Update*
 1. Enter the email addresses which the reports should be sent to in *Recipients for automatic reports.*
 1. Set the *Frequency of Automatic Reports* to the preferred frequency.

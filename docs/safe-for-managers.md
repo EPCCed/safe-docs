@@ -8,7 +8,7 @@ This section covers the use of SAFE to:
 
 !!! warning
     This document is currently under development and may be incomplete and/or misleading in places.
-    Please continue to refer to the[existing documentation](http://www.archer.ac.uk/documentation/safe-guide/) until this work is completed and this warning removed.
+    Please continue to refer to the [existing documentation](http://www.archer.ac.uk/documentation/safe-guide/) until this work is completed and this warning removed.
 
 
 

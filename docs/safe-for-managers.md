@@ -155,15 +155,15 @@ Do not forget the *Update* step, or nothing will happen.
 ## <a id="managing-resources"></a> Managing your allocated resources
 
 ### <a id="period"></a> What is "period allocation"
-<p>A period allocation is an amount of compute time which has been allocated for a project to use within the specified time period. Period allocations are valid for a specific resource pool (machine) and have definitive start and end dates, which usually coincide with the dates of your EPSRC grant or project award. When the end date of the period allocation passes, any leftover compute time will automatically expire.
+
+A period allocation is an amount of compute time which has been allocated for a project to use within the specified time period. Period allocations are valid for a specific resource pool (machine) and have definitive start and end dates, which usually coincide with the dates of your EPSRC grant or project award. When the end date of the period allocation passes, any leftover compute time will automatically expire.
 
 You can view and manage your period allocation via SAFE.
-
 
 [Login to SAFE](../safe-for-users#login). Then:
 
 - Go to the Menu *Projects* and select the *project* you wish to work with 
-- This will display a screen with a variety of options for managing 		the project.
+- This will display a screen with a variety of options for managing the project.
 - Scroll down to Time Budgets and Click on *Manage Group Time Allocations*
 - Click on the small arrow beside *How to Manage Your Budgets* for detailed instructions.
 

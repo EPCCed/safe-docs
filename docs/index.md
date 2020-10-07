@@ -76,7 +76,7 @@ Go to the [SAFE Guide for principal investigators](safe-for-managers).
 
 
 
-- [What is "period allocation](safe-for-managers#period)
+- [What is "period allocation"](safe-for-managers#period)
 - [How to set up project groups within the project](safe-for-managers#projgrp)
 - [How to set up a guest budget](safe-for-managers#projgrp)
 - [How to delete a project group](safe-for-managers#delgrp)
@@ -89,7 +89,7 @@ Go to the [SAFE Guide for principal investigators](safe-for-managers).
 
 ### [Managing project users](safe-for-managers#managing-users)
 
-  - [How can project users get registered?](safe-for-managers#regusers)
+  - [How can project users get registered](safe-for-managers#regusers)
   - [How to track user sign up requests](safe-for-managers#signup)
   - [How to designate a user as a project manager](safe-for-managers#projman)
   - [How to designate a user as a project manager](safe-for-managers#addu)

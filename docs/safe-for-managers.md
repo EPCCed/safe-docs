@@ -510,7 +510,7 @@ If a project group's use of a quota is getting close to the maximum, it is highl
 
 The budget values displayed are updated every morning, and the values shown for disk use are updated four times a day. For this reason, these values may not all be completely up-to-date. If there is a lot of activity in your project, the numbers shown could be significantly different from the current ones.
 
-### <a id="phist"></a> How to track what my project's users and project groups are doing?
+### <a id="phist"></a> How to track what my project's users and project groups are doing
 
 This can be done using the Report Generator
 

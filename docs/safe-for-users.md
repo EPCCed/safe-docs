@@ -31,6 +31,10 @@ All users must be registered on SAFE before they can apply for their machine acc
 At this point your account is registered on the SAFE but you do not have a machine account on the service machine.
 To obtain a machine account you should follow the steps to [Request a machine account](#getac).
 
+<a id="personssh"></a>
+!!! Hint
+    If you are going to be requesting a machine account and logging onto the service machine, you may want to create a password-protected ssh key pair and upload the public key into SAFE as part of your Personal Details. 
+    A key uploaded here will be used as the default key for any machine account you request.
 
 ### <a id="login"></a> How to login to SAFE and Overview of Main Page
 
@@ -101,6 +105,7 @@ SAFE will only mail a password reset link to email addresses already registered 
 
 Of course, anyone could go to SAFE, click "Forgot password?", and type your email address. If that happens you will receive an email message out of the blue with a password recovery link. This can be safely ignored - no changes will be made if the link is not used.
 
+## <a id="machac"></a> Your user account on the service machine
 
 ### <a id="getac"></a> How to request a machine account
 
@@ -119,6 +124,10 @@ Of course, anyone could go to SAFE, click "Forgot password?", and type your emai
     Usernames cannot be used on multiple projects, even if the previous project has finished.  
     Some machines require you to have set up an ssh key in SAFE before you can request your machine account.
 
+!!! hint
+    If you set up an ssh key under "Personal Details" in SAFE, then that key will be used now as the default ssh key for your new account.
+    If you do not have any ssh key set up then you may need to create a password-protected ssh key pair and upload the public key in SAFE.
+	You can add a default key for all new accounts under your ["Personal Details"](#how-to-change-your-personal-details-on-safe), or add a key specific to this account using the "Add Credential" button.
 		
 Next you will be asked to accept the Service Terms and Conditions of Access, by clicking the appropriate button.  When you do this, you will be sent an  acknowledgment by email.
 

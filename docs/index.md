@@ -26,6 +26,9 @@ Go to the [SAFE guide for individual users](safe-for-users)
 - [How to change your email address on SAFE](safe-for-users#chemail)
 - [How to change your SAFE password](safe-for-users#chpass)
 - [How to reset your SAFE password if lost or forgotten](safe-for-users#reset)
+
+###  [Your user account on the service machine](safe-for-users#machac)
+
 - [How to request a machine account](safe-for-users#getac)
 - [How to request access to a guest budget](safe-for-users#accguest)
 - [How to reset a password on your machine account](safe-for-users#reset_machine)

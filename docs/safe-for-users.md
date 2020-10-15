@@ -6,12 +6,6 @@ This section covers the use of SAFE to:
   - Manage your user accounts on different systems and services
 
 
-!!! warning
-    This document is currently under development and may be incomplete and/or misleading in places.
-    Please continue to refer to the [existing documentation](http://www.archer.ac.uk/documentation/safe-guide/)
-    until this work is completed and this warning removed.
-
-
 
 
 [SAFE](https://safe.epcc.ed.ac.uk/) is an online service management system developed by [EPCC](https://www.epcc.ed.ac.uk).

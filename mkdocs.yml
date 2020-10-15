@@ -1,11 +1,16 @@
 theme:
   name: material
+  favicon: favicon.ico
+  logo: images/safe-logo.png
   palette:
     scheme: default
   features:
     - tabs
   icon:
     repo: fontawesome/brands/github
+    
+extra_css:
+  - stylesheets/archer2.css
 
 site_name: EPCC SAFE User Documentation
 repo_url: https://github.com/EPCCed/safe-docs

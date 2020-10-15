@@ -3,7 +3,7 @@
 This is the documentation for the EPCC SAFE.
 
 
-[SAFE](https://www.archer.ac.uk/safe) is an online ARCHER2 service management system. This is new documentation for the latest version of SAFE version 4. 
+[SAFE](https://www.archer.ac.uk/safe) is an online ARCHER2 service management system. 
 
 
 ## [SAFE Guide for Individual Users](safe-for-users)

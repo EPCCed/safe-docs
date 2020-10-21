@@ -3,12 +3,12 @@
 This is the documentation for the EPCC SAFE.
 
 
-[SAFE](https://www.archer.ac.uk/safe) is an online ARCHER2 service management system. 
+[SAFE](https://safe.epcc.ed.ac.uk/) is an online service management system. 
 
 
 ## [SAFE Guide for Individual Users](safe-for-users)
 
-Through [SAFE](https://www.archer.ac.uk/safe), individual users can request machine accounts, reset passwords, see available resources and track their usage. All users must be registered on SAFE before they can apply for their machine account. 
+Through [SAFE](https://safe.epcc.ed.ac.uk/), individual users can request machine accounts, reset passwords, see available resources and track their usage. All users must be registered on SAFE before they can apply for their machine account. 
 
 Go to the [SAFE guide for individual users](safe-for-users)
 

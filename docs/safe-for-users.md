@@ -130,6 +130,22 @@ This can be safely ignored - no changes will be made if the link is not used.
     Some machines require you to have set up an ssh key in SAFE before you can request your
     machine account.
 
+
+#### Service Machine access policies
+
+| Service  |  Access policy  |
+| -------- | --------------  |
+|	ARCHER		|	Users must have email addresses from specified organisations<br>Users must have a public key registered to use the machine  |
+| archer2-4c	<br>4 Cabinet  |  Users must have a public key registered to use the machine |
+| Bede			|     Only one account per person is allowed |
+| Cirrus		| Users must have email addresses from specified organisations<br>    Users can register a public key to access the machine |
+| CSD3	| Only one account per person is allowed<br>    Users can register a public key to access the machine<br>    Password authentication is not allowed |
+| Kelvin2			|     Only one account per person is allowed<br>    Users can register a public key to access the machine<br>    Password authentication is not allowed |
+| Thomas		|     Only one account per person is allowed<br>    Users can register a public key to access the machine<br>    Password authentication is not allowed |
+	
+	
+
+
 !!! hint
     If you set up an ssh key under "Personal Details" in SAFE, then that key will be used now
     as the default ssh key for your new account. If you do not have any ssh key set up then you

@@ -133,17 +133,19 @@ This can be safely ignored - no changes will be made if the link is not used.
 
 #### Service Machine access policies
 
-| Service  |  Access policy  |
+
+
+| Service  |  Hosting site | Access policy  |
 | -------- | --------------  |
-|	ARCHER		|	Users must have email addresses from specified organisations<br>Users must have a public key registered to use the machine  |
-| archer2-4c	<br>4 Cabinet  |  Users must have a public key registered to use the machine |
-| Bede			|     Only one account per person is allowed |
-| Cirrus		| Users must have email addresses from specified organisations<br>    Users can register a public key to access the machine |
-| CSD3	| Only one account per person is allowed<br>    Users can register a public key to access the machine<br>    Password authentication is not allowed |
-| Kelvin2			|     Only one account per person is allowed<br>    Users can register a public key to access the machine<br>    Password authentication is not allowed |
-| Thomas		|     Only one account per person is allowed<br>    Users can register a public key to access the machine<br>    Password authentication is not allowed |
-	
-	
+| ARCHER | EPCC | Users must have email addresses from specified organisations<br/>Users must have a public key registered to use the machine<br/>Both password and SSH key required for access  |
+| ARCHER2 |  EPCC | Users must have an SSH public key registered to use the machine<br/>Both password and SSH key required for access |
+| Bede | N8 | Only one account per person is allowed |
+| Cirrus | EPCC | Users must have email addresses from specified organisations<br/>Users must register an SSH public key to access the machine<br/>Both password and SSH key required for access |
+| CSD3 (Peta4-Skylake, Peta4-KNL, Wilkes2-GPU) | University of Cambridge | Only one account per person is allowed<br/>Users must register an SSH public key to access the machine<br/>SSH key used for access (no password-based access) |
+| Kelvin2 | Queen's University Belfast | Only one account per person is allowed<br/>Users must register an SSH public key to access the machine<br/>SSH key used for access (no password-based access) |
+| Thomas	| MMM Hub | Only one account per person is allowed<br/>Users must register an SSH public key to access the machine<br/>SSH key used for access (no password-based access) |
+
+
 
 
 !!! hint

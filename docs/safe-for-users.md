@@ -165,6 +165,20 @@ Once this has been done, you will be sent an email. You can then
 [pick up your password](#getpass) for the service machine from your SAFE account.
 
 
+
+### <a id="joinproject"></a> How to request to join a project
+
+[Login to SAFE](#login). Then:
+
+1. Go to the Menu *Projects* and select *Request access* 
+1. Choose the project you want the account for in the "Project" box.  
+1. Click "Next"
+1. Select the access route - note that not all projects or machines offer all possible access routes. 
+1. Click "Apply"
+1. Complete the necessary steps, depending on the chosen access route.
+
+
+
 ### <a id="accguest"></a> How to request access to a guest budget
 
 A guest budget is a budget in one project which has been set up to permit access requests from

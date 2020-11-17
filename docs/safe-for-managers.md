@@ -181,7 +181,7 @@ Project management tasks for the period allocation can be carried out at any tim
 
 ### <a id="projgrp"></a> How can I set up project groups within my project?
 
-Project groups can be used to administer time and other resources within your project.
+Project groups can be used to administer time and other resources within your project. There is always one group which contains all project members but you can create additional groups if you wish.
 	
 [Login to SAFE](../safe-for-users#login) Then:
 
@@ -265,6 +265,9 @@ other project groups.
 1. Click the *Submit Budget Allocation Changes* button.
 
 Do not forget the Submit step, or nothing will happen.
+
+!!! Hint
+    If you need to make a large number of simultaneous changes the "MultiMove" button will open a different form that allows you to specify the amount you want each budget to change.
 
 
 ### <a id="oneuser"></a> How can I allocate time to a single user?
@@ -454,9 +457,20 @@ To add users to the new project group, see the next question. A user can belong 
 1. Go to the Menu *Projects* and select the *project* you wish to are work on. 
 1. Scroll down to project groups and click on the small arrow beside *Project Groups* to expand and display all the groups in the project.
 1. Select the project-subgroup that you wish add or remove users to or from. 
-1. Scroll down to the bottom and click on *Add accounts*
-1. This lists all of the active users accounts within project, select the users that you should have access to the project group clicking the boxes next to their names and click *Add* 
-1. To remove existing members from a group, use *Remove accounts*
+
+There are 3 possible operations
+
+*  *Add/Remove members*  lists all members of the project allowing you to add and remove accounts from the project group in a single operation. 
+
+However for a very large project this can become unwieldy so separate add/remove operations are also available.
+
+*  *Add accounts* only lists accounts that can be added to the group allowing multiple accounts to be added.
+
+*  *Remove accounts* only lists accounts already belonging to the project allowing multiple accounts to be removed.
+
+!!! Hint
+    There is also the option to add/remove groups to a user account. This can be found on the individual user account pages linked from the Usernames in the *Project accounts* page. This route is most useful if you want to add or remove a single account to/from multiple groups.
+
 
 To see which members have access to the project group, select *project sub-group* and click *List Members.*
 

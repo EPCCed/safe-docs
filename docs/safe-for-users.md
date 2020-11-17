@@ -42,6 +42,38 @@ To obtain a machine account you should follow the steps to [Request a machine ac
 4. Click "Login"
 5. You are now on the Main Page and here you can see Menus along the top which give access to SAFE functionality
 
+### <a id="inst-id"></a> How to use institutional login
+
+If your home institution provides a single-sign-on system you may be able to link this to your SAFE account and use this to log into the SAFE instead of a SAFE specific password
+
+
+#### <a id="link-inst-id"></a> How to link your Institutional identity to your SAFE account
+
+1. Log into the SAFE
+2. Go to the Menu "Your details" "Register Identities" "Register institutional ID"
+3. Select your organisation (most academic institutions should be available)
+4. Log into your institution
+
+You should be redirected back to the SAFE with an "Identity registered" message.
+
+If you get a "No remote identity" message then your home institution may not be releasing any identifying information to the SAFE. You may be able to resolve this by contacting your local IT support.
+
+Once your identity is linked you will be able to use it instead of the SAFE specific password.
+
+#### <a id="use-inst-id"></a> How to use your Institutional Identity to log into SAFE
+1. From the login page select "Login with institutional credentials"
+2. Select your organisation
+3. Log into your institution
+
+You should be redirected back to the SAFE.
+
+
+
+
+
+
+
+
 
 ### <a id="2fac"></a> How to turn on 2-factor authentication to SAFE
 
@@ -163,6 +195,20 @@ Now you have to wait for your PI or project manager to accept your request to re
 this has happened, the systems team are prompted to create your account on the service machine.
 Once this has been done, you will be sent an email. You can then
 [pick up your password](#getpass) for the service machine from your SAFE account.
+
+
+
+### <a id="joinproject"></a> How to request to join a project
+
+[Login to SAFE](#login). Then:
+
+1. Go to the Menu *Projects* and select *Request access* 
+1. Choose the project you want the account for in the "Project" box.  
+1. Click "Next"
+1. Select the access route - note that not all projects or machines offer all possible access routes. 
+1. Click "Apply"
+1. Complete the necessary steps, depending on the chosen access route.
+
 
 
 ### <a id="accguest"></a> How to request access to a guest budget

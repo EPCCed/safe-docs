@@ -267,7 +267,7 @@ other project groups.
 Do not forget the Submit step, or nothing will happen.
 
 !!! Hint
-    If you need to make a large number of simultaneous changes the "MultiMove" button will open a different form that allows you to specify the amount you want each budget to change.
+    If you need to make a large number of simultaneous changes the *MultiMove* button will open a different form that allows you to specify the amount you want each budget to change.
 
 
 ### <a id="oneuser"></a> How can I allocate time to a single user?

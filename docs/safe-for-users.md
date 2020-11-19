@@ -167,8 +167,8 @@ This can be safely ignored - no changes will be made if the link is not used.
 
 
 
-| Service  |  Hosting site | Access policy  |
-| -------- | --------------  |
+| Service  |  Hosting site | Access policy |
+| -------- | ------------  | ------------- |
 | ARCHER | EPCC | Users must have email addresses from specified organisations<br/>Users must have a public key registered to use the machine<br/>Both password and SSH key required for access  |
 | ARCHER2 |  EPCC | Users must have an SSH public key registered to use the machine<br/>Both password and SSH key required for access |
 | Bede | N8 | Only one account per person is allowed |

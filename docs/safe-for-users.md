@@ -311,6 +311,8 @@ All mailings are archived and can be viewed in [SAFE](https://safe.epcc.ed.ac.uk
 
 ### <a id="mlist"></a> How to get added to, or removed from the email mailing list?
 
+There is one mailing list which **all** users are subscribed to, *All user mailing*.  It is a condition of using the service that you receive these important mailings.
+
 There are three mailing list options available.</p>
 
 1. The *Major Announcements* mailings will contain information on major service upgrades and future plans.

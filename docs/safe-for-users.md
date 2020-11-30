@@ -152,7 +152,7 @@ This can be safely ignored - no changes will be made if the link is not used.
 1. Click "Next"
 1. Select the machine you want the account for from the available machines. 
 1. Click "Next"
-1. Enter the username you would prefer to use on the service machine <br>
+1. Enter the username you would prefer to use on the service machine and (optionally) add the public part of an SSH key pair to use for login
 1. Click "Request"
 	
 !!! notes
@@ -178,8 +178,6 @@ This can be safely ignored - no changes will be made if the link is not used.
 | Thomas	| MMM Hub | Only one account per person is allowed<br/>Users must register an SSH public key to access the machine<br/>SSH key used for access (no password-based access) |
 
 
-
-
 !!! hint
     If you set up an ssh key under "Personal Details" in SAFE, then that key will be used now
     as the default ssh key for your new account. If you do not have any ssh key set up then you
@@ -196,7 +194,22 @@ this has happened, the systems team are prompted to create your account on the s
 Once this has been done, you will be sent an email. You can then
 [pick up your password](#getpass) for the service machine from your SAFE account.
 
+### <a id="addssh"></a> How to add an SSH public key to your account
 
+[Login to SAFE](https://safe.epcc.ed.ac.uk). Then:
+
+ 1.  Go to the Menu *Login accounts* and select the ARCHER2 account you
+     want to add the SSH key to
+ 2.  On the subsequent Login account details page click the *Add
+     Credential* button
+ 3.  Select *SSH public key* as the Credential Type and click *Next*
+ 4.  Either copy and paste the public part of your SSH key into the
+     *SSH Public key* box or use the button to select the public key
+     file on your computer.
+ 5.  Click *Add* to associate the public SSH key part with your account
+
+Once you have done this, your SSH key will be added to your machine
+account.
 
 ### <a id="joinproject"></a> How to request to join a project
 

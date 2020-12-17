@@ -371,13 +371,30 @@ As with group quotas on the work file-system you can only be absolutely sure of 
 ### <a id="regusers"></a> How can project users get registered?
 
 You must not apply for machine accounts on behalf of other users, or let others use accounts that belong to you. Account sharing is strictly forbidden on ARCHER2. 
-Every user must [register on SAFE](../safe-for-users#register) and then [apply for their own machine account](../safe-for-users#getac)
 
-In order to get an account, a potential user just needs to know the project machine and  code.
+
+Every user must [register on SAFE](../safe-for-users#register) and then [apply for their own machine account](../safe-for-users#getac).
+
+In order to request an account, a potential user just needs to know the project machine and  code.
 
 		
 1. Give the users the project code and any advice on what username they should request in your project if you wish.
-1. Every user must [register on SAFE](../safe-for-users#register) and then [apply for their own machine account](../safe-for-users#getac)
+1. Every user should then [register on SAFE](../safe-for-users#register) and then [apply for their own machine account](../safe-for-users#getac)
+
+
+or you can send an Invite to a new user:
+
+The normal procedure for generating a machine account is for the account owner to apply for an account and have it approved by a project manager, as described above.
+
+It is also possible for project managers to pre-approve an account and send an invitation to the potential project member.
+
+To do this the project manager uses the *Invite member* button from the project administration page. The project manager must provide an Email address for the prospective project member together with the machine the account is for, a suggested username for the account and a text message to send with the invite. 
+This will send an email to the provided address with a link. If the recipient wants to accept the account they need to log into the safe (creating a SAFE account if they do not already have one) and click on the link in the email.
+
+After sending the invitation the SAFE will offer an opportunity add the new account to additional project groups.
+
+The account is not actually created until the account owner accepts the account so they will be able to change the suggested username if they wish.
+
 
 	
 ### <a id="approve"></a> How to approve user sign up requests

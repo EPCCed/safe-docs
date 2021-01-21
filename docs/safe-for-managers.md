@@ -118,7 +118,7 @@ If you are not going to work on the machine yourself, you do not need to do this
 	
 
 You will get an acknowledgement screen, from which you can return to your main page. 
-Now (as PI) you have to [approve your own request](#approve) for an account.
+As a PI, your account request will be auto-approved.
 
 
 

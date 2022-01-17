@@ -286,28 +286,27 @@ Your password must comply with the  [Service password policy](https://www.archer
 	
 Note that when you change your password on the service machine  in this way, this is not reflected on the SAFE.
 	 
-## <a id="package-group"></a> How to request access to a Package Group
+## <a id="package-group"></a> How to request access to a package group (licensed software or restricted features)
 
-Some software which is installed on ARCHER2 can only be accessed once the user's license has been confirmed.
+Some software installed on or features of ARCHER2 have restrcited access lists. For example, you may only be allowed
+to access certain software once your licence has been verified.
 
-For some of these packages, such as VASP and CASTEP you can request access via SAFE.
+You request access to these restricted features and software on ARCHER2 through SAFE.
 
 [Login to SAFE](#login). Then:
 
-1. Go to the Menu *Login accounts* and select the account which requires access to the package
+1. Go to the Menu *Login accounts* and select the account which requires access to the feature/software
 2. Click "Request Access to Package"
-3. Select the package from the list of available packages and click "Select"
-4. Fill in as much information as possible about your license, at the very least, the information
-   requested at the top of the screen such as the licence holder's name and contact details. If
-   you are covered by the license because the licence holder is your supervisor, for example,
-   please state this.
-5. Click "Submit"
+3. Select the software/feature from the list of available packages and click "Select"
+4. Fill in the details requested in the text at the top of the screen to support your access request. (If
+   no details are required, just enter N/A.)
+6. Click "Submit"
 
-Your request will then be processed by the service support team who will confirm your license with the package
-developers before enabling your access to the package on the service machine.  This can take several days but
-you will be advised once this has been done.
+Your request will then be processed by the service support team who will verify that you can be granted
+access to the restricted feature/software on ARCHER2. This can take several days depending on the response
+time from external parties who may neeed to very the access request. You will be advised once this has been done.
 
-If you require access to a package which does not yet appear in the list of available packages then please
+If you require access to a feature or software which does not yet appear in the list of available packages then please
 just send an email to the Service Desk to request access.  
 
 ## <a id="user-mailing"></a> User Mailing Options

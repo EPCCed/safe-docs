@@ -327,13 +327,13 @@ There is one mailing list which **all** users are subscribed to, *All user maili
 
 There are three mailing list options available.</p>
 
-1. The *Major Announcements* mailings will contain information on major service upgrades and future plans.
-   This option is enabled for all users by default. 
+1. The *Major Announcements* mailings will contain information on major service upgrades and future plans. 
+   This option is enabled for all users by default. (4-6 mailings per year, more frequent during service updates).  
 2. The *Service News* mailings will contain information on training courses, newsletters, events, and other
-   general announcements. This option is enabled for all users by default.
+   general announcements. This option is enabled for all users by default. (1 mailing per week).
 3. The *System Status Notifications* will inform users when the service goes up or down, including the
    reminders of the next planned maintenance shutdowns. This option is not enabled by default, those
-   wishing to receive this information will need to explicitly subscribe to it.
+   wishing to receive this information will need to explicitly subscribe to it. (2-3 mailings per month).
   
 Any combination of these three options may be selected via SAFE:
 

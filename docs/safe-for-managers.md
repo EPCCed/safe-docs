@@ -7,7 +7,7 @@ This section covers the use of SAFE to:
  
 
 
-Principal Investigators (grant holders) can manage their allocations efficiently via [SAFE](https://safe.epcc.ed.ac.uk)
+Principal Investigators (grant holders) can manage their allocations efficiently via [SAFE](https://safe.epcc.ed.ac.uk).
 
 <!--
 
@@ -297,7 +297,7 @@ Beyond the general and reserve quotas, you can also have quotas for the project 
 Let's use homespace as an example &mdash; workspace is similar. Suppose you are project *t01*. To start with, one Unix group will be assigned to this project. The homespace directories for all users will be in directory `/home/t01/t01/` &mdash; this is where the general group is held. User *john*, for example, will have directory `/home/t01/t01/john/` as his homespace directory. (In fact, if this is the first project he joined, that's where he will log in.) Any file created in any of the directories under `/home/t01/t01/` will belong to the Unix group for project *t01*.
 
 
-If you create a project group *t01-a* with no homespace quota, this will not change. But the moment you give a homespace quota to this project group, a Unix group will be assigned to it and a directory will be created for it: `/home/t01/t01-a/`
+If you create a project group *t01-a* with no homespace quota, this will not change. On the "Group quotas" SAFE page you will see the new project group and under "Usage" and "Quota" you will see "Locked" &mdash; as the group has no quota, it cannot be populated. But the moment you give a homespace quota to this project group, a Unix group will be assigned to it and a directory will be created for it: `/home/t01/t01-a/`
 If user *john* is a member of this project group, he will have a directory `/home/t01/t01-a/john/`.  Any files he creates under that directory will belong to *t01-a* and will be counted against its quota.
 
 
@@ -316,7 +316,7 @@ Most projects in fact use their project groups only for administering time, and 
 
 
 !!! Note 
-    The above points do not apply to the reserve quotas, since they don't exist on the service machine. They're just a book-keeping fiction, and using them is cost free. We recommend this to any project which is concerned about running out of space.]
+    The above points do not apply to the reserve quotas, since they don't exist on the service machine. They're just a book-keeping fiction, and using them is cost free. We recommend this to any project which is concerned about running out of space.
 
 
 ### <a id="mvspace"></a> How can I create a quota for a project group, or move space between quotas?

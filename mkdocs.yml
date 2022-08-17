@@ -3,7 +3,7 @@ theme:
   favicon: favicon.ico
   logo: images/safe-logo.png
   palette:
-    scheme: default
+    scheme: teal
   features:
     - tabs
   icon:

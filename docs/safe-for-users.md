@@ -109,6 +109,16 @@ Do not forget the *Update* step, or nothing will happen. Note that your postal a
 not automatically include the name of your department and institution; if you want these in
 your postal address, you must type them again as part of Address Lines 1-4.
 
+### <a id="verify"></a> How to verify your email address on SAFE
+
+[Login to SAFE](#login). Then:
+
+1. Go to the Menu *Your details* and select *Update email*
+2. If you want to verify the existing email address, leave the text block blank and click the "Verify" button.
+
+A verification email will then be sent to the registered email address. This email contains a link
+which you must use to verify your address.
+
 ### <a id="chemail"></a> How to change your email address on SAFE
 
 [Login to SAFE](#login). Then:

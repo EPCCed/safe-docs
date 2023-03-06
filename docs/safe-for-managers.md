@@ -497,15 +497,19 @@ Otherwise, it happens at once.
 A user can belong to more than one project group.
 
 
+
 ### <a id="remuser"></a> How can I remove a user (or users) from my project?
 
 
 Please check the [ARCHER2 policy](https://www.archer2.ac.uk/about/policies/project_account_closing) on on end  of life procedures for ARCHER2 user accounts.
 
-If you wish to remove a user from your project, please email [support@archer2.ac.uk](mailto:support@archer2.ac.uk) giving the username of the user to be deleted.
+If you wish to remove a user from your project, you can email [support@archer2.ac.uk](mailto:support@archer2.ac.uk) giving the username of the user to be deleted.
 Service desk staff will arrange for the account to be deleted, in line with the policy.  
+
+You can remove an account from your project in SAFE by selecting the project from your Projects list and then under "Manage members" choose "Remove account".  <b>Removing an account also immediately removes all associated data permanently</b>, so must be done with great caution. 
  
-  
+!!! Warning
+    When you remove a user from the project or from a project group, this removal will not be processed on the machine while the user still has jobs in the queue (pending or running).  Once they no longer have work in the queue, the removal will be processed.<br>     In the event that you wish to prevent the user from running jobs immediately, please contact the service desk who can arrange for queued and running jobs to be removed from the queue. 
 
 ### <a id="projmailing"></a> How can I send a mailing to all users in my project
 

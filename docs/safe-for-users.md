@@ -286,11 +286,13 @@ Wait till you receive the email with your details.  Then:
 3. Click *View Login Account Password*
 4. Your password to the service machine will be displayed
   
+!!! Note
+    ARCHER2 account passwords are also sometimes refered to as LDAP passwords by the system
 
 This password is generated randomly by the software. It's best to copy-and-paste it across when you
 log in to the service machine.
 	
-After you login, you will be prompted to change it. You should paste in the password retreived from
+After you login, you will be prompted to change the new (LDAP) password. You should paste in the password retreived from
 SAFE again, and then you will be prompted to type in your new, easy-to-remember password, twice. 
 Your password must comply with the  [Service password policy](https://www.archer2.ac.uk/about/policies/passwords_usernames).
 	

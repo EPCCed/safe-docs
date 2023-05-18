@@ -17,7 +17,12 @@ All users must be registered on SAFE before they can apply for their machine acc
 
 ### <a id="register"></a>How to register on SAFE
 
-1. Go to the <a href="https://safe.epcc.ed.ac.uk/">SAFE logon page </a>
+!!! Warning
+    We have seen issues with Gmail blocking emails from SAFE so we recommend that users
+    use their institutional/work email address rather than Gmail addresses to register 
+    for SAFE accounts.
+
+1. Go to the <a href="https://safe.epcc.ed.ac.uk/">SAFE login page </a>
 2. Click "Create an account"
 3. Fill in your personal details.  You can come back later and change them if you wish
 4. Click "Register"

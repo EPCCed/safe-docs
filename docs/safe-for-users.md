@@ -26,8 +26,8 @@ All users must be registered on SAFE before they can apply for their machine acc
 2. Click "Create an account"
 3. Fill in your personal details.  You can come back later and change them if you wish
 4. Click "Register"
-5. You are now registered. Your SAFE password will be emailed to the email address you
-   provided. You can then login with that email address and password
+5. You are now registered. The SAFE will send an email to the email address you
+   provided. This will contain a single-use link you can use to set your password.
 
 
 At this point your account is registered on the SAFE but you do not have a machine account on the service machine.

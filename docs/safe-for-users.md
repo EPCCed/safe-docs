@@ -215,6 +215,8 @@ Once this has been done, you will be sent an email. You can then
 
 ### <a id="addssh"></a> How to add an SSH public key to your account
 
+You can have multiple SSH keys registered against your user accounts.
+
 [Login to SAFE](https://safe.epcc.ed.ac.uk). Then:
 
  1.  Go to the Menu *Login accounts* and select the ARCHER2 account you

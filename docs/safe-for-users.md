@@ -70,13 +70,7 @@ Once your identity is linked you will be able to use it instead of the SAFE spec
 2. Select your organisation
 3. Log into your institution
 
-You should be redirected back to the SAFE.
-
-
-
-
-
-
+You should be redirected back to the SAFE
 
 
 

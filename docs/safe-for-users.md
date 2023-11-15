@@ -190,6 +190,10 @@ This can be safely ignored - no changes will be made if the link is not used.
 | Kelvin2 | Queen's University Belfast | Only one account per person is allowed<br/>Users must register an SSH public key to access the machine<br/>SSH key used for access (no password-based access) |
 | Thomas	| MMM Hub | Only one account per person is allowed<br/>Users must register an SSH public key to access the machine<br/>SSH key used for access (no password-based access) |
 
+!!! hint
+	If MFA is required for machine access, and you have a Login account on that machine which does not have MFA set up, then the 'Login accounts' menu item will be highlighted and the account name
+	will also be highlighted.  Click on the account name to see further details of what
+	action is required.
 
 !!! hint
     If you set up an ssh key under "Personal Details" in SAFE, then that key will be used now

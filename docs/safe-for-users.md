@@ -208,8 +208,7 @@ appropriate button.  When you do this, you will be sent an  acknowledgment by em
 
 Now you have to wait for your PI or project manager to accept your request to register. When
 this has happened, the systems team are prompted to create your account on the service machine.
-Once this has been done, you will be sent an email. You can then
-[pick up your password](#getpass) for the service machine from your SAFE account.
+Once this has been done, you will be sent an email. If the service machine is configured to use passwords you can then [pick up your password](#getpass) for the service machine from your SAFE account.
 
 ### <a id="addssh"></a> How to add an SSH public key to your account
 
@@ -271,7 +270,14 @@ passwd
 You will then be prompted to enter your current password, and then your new password twice.
 Your password must comply with the [password policy](https://www.archer2.ac.uk/about/policies/passwords_usernames).
 
-If you have forgotten your current password, or it has expired, then you can ask for it to be reset:
+If you have forgotten your current password, or it has expired, then a new password can be set via the SAFE. The SAFE supports two possible ways of doing this depending on how the machine is set-up. 
+
+ 1. You can request your password be re-set to a single use random password.
+ 2. You can change your password directly via a SAFE form.
+
+Usually only one of these will be available. Direct password changes will only be possible on machines that are very tightly integrated with the SAFE.
+
+To request a password reset:
 
 [Login to SAFE](#login). Then:
 
@@ -282,6 +288,19 @@ If you have forgotten your current password, or it has expired, then you can ask
 
 Now the systems team will change your password. When this has been done, you will be informed by email;
 this means that you can come back to SAFE and [pick up your new password](#getpass).
+
+To change or set a password directly from the SAFE:
+
+[Login to SAFE](#login). Then:
+
+1. Go to the Menu *Login accounts* and select the account you need the new password for
+2. Click *username* which displays details of this service machine account.
+3. Click * Set Password*
+4. Enter your new password in the two password boxes.
+5. Click * Change Password*
+
+There may be a short delay while the password update takes place.
+
 
 ### <h3 id="getpass"></a> How can I pick up my password for the service machine?
 

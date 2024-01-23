@@ -5,9 +5,6 @@ This section covers the use of SAFE to:
   - Manage your personal details and preferences
   - Manage your user accounts on different systems and services
 
-
-
-
 [SAFE](https://safe.epcc.ed.ac.uk/) is an online service management system developed by [EPCC](https://www.epcc.ed.ac.uk).
 Through SAFE, individual users can request machine accounts, reset passwords, see available resources and track their usage. 
 All users must be registered on SAFE before they can apply for their machine account.
@@ -22,26 +19,30 @@ All users must be registered on SAFE before they can apply for their machine acc
     use their institutional/work email address rather than Gmail addresses to register 
     for SAFE accounts.
 
-1. Go to the <a href="https://safe.epcc.ed.ac.uk/">SAFE login page </a>
+1. Go to the correct SAFE login page
+     - DiRAC Users: [DiRAC SAFE login page](https://safe.epcc.ed.ac.uk/dirac/)
+     - Other systems: [EPCC SAFE login page](https://safe.epcc.ed.ac.uk/)
 2. Click "Create an account"
 3. Fill in your personal details.  You can come back later and change them if you wish
 4. Click "Register"
 5. You are now registered. The SAFE will send an email to the email address you
    provided. This will contain a single-use link you can use to set your password.
 
-
-At this point your account is registered on the SAFE but you do not have a machine account on the service machine.
-To obtain a machine account you should follow the steps to [Request a machine account](#getac).
+At this point your account is registered on the SAFE but you do not have a machine account to be
+able to login to services other than SAFE. To obtain a machine account you should follow the steps
+to [Request a machine account](#getac).
 
 <a id="personssh"></a>
 !!! Hint
-    If you are going to be requesting a machine account and logging onto the service machine, you may
+    If you are going to be requesting a machine account and logging onto to services, you may
     want to create a password-protected ssh key pair and upload the public key into SAFE as part of your Personal Details. 
     A key uploaded here will be used as the default key for any machine account you request.
 
 ### <a id="login"></a> How to login to SAFE and Overview of Main Page
 
-1. Go to the SAFE logon page [https://safe.epcc.ed.ac.uk/](https://safe.epcc.ed.ac.uk/)
+1. Go to the correct SAFE login page
+     - DiRAC Users: [DiRAC SAFE login page](https://safe.epcc.ed.ac.uk/dirac/)
+     - Other systems: [EPCC SAFE login page](https://safe.epcc.ed.ac.uk/)
 2. Type in the email address you have registered with
 3. Type in your SAFE password
 4. Click "Login"
@@ -49,60 +50,60 @@ To obtain a machine account you should follow the steps to [Request a machine ac
 
 ### <a id="inst-id"></a> How to use institutional login
 
-If your home institution provides a single-sign-on system you may be able to link this to your SAFE account and use this to log into the SAFE instead of a SAFE specific password
+If your home institution provides a single-sign-on system you may be able to link this to your SAFE account
+and use this to log into the SAFE instead of a SAFE specific password
 
+#### <a id="link-inst-id"></a> How to link your institutional identity to your SAFE account
 
-#### <a id="link-inst-id"></a> How to link your Institutional identity to your SAFE account
-
-1. Log into the SAFE
-2. Go to the Menu "Your details" "Register Identities" "Register institutional ID"
+1. [Login to SAFE](#login)
+2. Go to the Menu *Your details* - *Register Identities* - *Register institutional ID*
 3. Select your organisation (most academic institutions should be available)
 4. Log into your institution
 
 You should be redirected back to the SAFE with an "Identity registered" message.
 
-If you get a "No remote identity" message then your home institution may not be releasing any identifying information to the SAFE. You may be able to resolve this by contacting your local IT support.
+If you get a "No remote identity" message then your home institution may not be releasing any identifying
+information to the SAFE. You may be able to resolve this by contacting your local IT support.
 
 Once your identity is linked you will be able to use it instead of the SAFE specific password.
 
 #### <a id="use-inst-id"></a> How to use your Institutional Identity to log into SAFE
-1. From the login page select "Login with institutional credentials"
-2. Select your organisation
-3. Log into your institution
+
+1. Go to the correct SAFE login page
+     - DiRAC Users: [DiRAC SAFE login page](https://safe.epcc.ed.ac.uk/dirac/)
+     - Other systems: [EPCC SAFE login page](https://safe.epcc.ed.ac.uk/)
+2. From the login page select *Login with institutional credentials*
+3. Select your organisation
+4. Log into your institution
 
 You should be redirected back to the SAFE
 
+### <a id="2fac"></a> How to turn on MFA (multi-factor authetication) for SAFE login
 
-
-### <a id="2fac"></a> How to turn on 2-factor authentication to SAFE
-
-[Login to SAFE](#login). Then:
-
-1. Go to the Menu *Your details* and select *Set 2 factor token*.  A scanable QR code will be displayed.
-2. Install a suitable smart-phone app such as 
-google-authenticator ([android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2), [ios](http://appstore.com/googleauthenticator)) on your phone or mobile device, or use a cross-platform app such as [Authy](https://authy.com/) which works on Windows, MacOS, Linux, Android and ios, or [Authenticator](https://authenticator.cc/) which is a browser plugin which works with Firefox, Chrome or Edge browsers.
-3. Follow the app instructions to add a new account and scan the displayed QR code (or type in the displayed 26 character key).
-4. Type the verification code generated by the app into the *Verification code* box.
-5. Click *Set*
+1. [Login to SAFE](#login)
+2. Go to the Menu *Your details* and select *Set 2 factor token*.  A scanable QR code will be displayed.
+3. Install a suitable smart-phone app such as 
+google-authenticator ([android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2), [ios](http://appstore.com/googleauthenticator)) on your phone or mobile device, or use a cross-platform app such as [Authy](https://authy.com/) which works on Windows, MacOS, Linux, Android and iOS, or [Authenticator](https://authenticator.cc/) which is a browser plugin which works with Firefox, Chrome or Edge browsers.
+4. Follow the app instructions to add a new account and scan the displayed QR code (or type in the displayed 26 character key).
+5. Type the verification code generated by the app into the *Verification code* box.
+6. Click *Set*
 
 2-Factor Authentication is now enabled.  
 Each time you log in to the SAFE, in additon to requesting your SAFE password or Institutional
 login, you will also be asked for the current 6-digit authentication code from the app.
 
-### How to turn off 2-Factor Authentication on SAFE
+### How to turn off MFA for SAFE login
 
-[Login to SAFE](#login). Then:
-
-1. Go to the Menu *Your details* and select *Disable 2 factor authentication.*
+1. [Login to SAFE](#login)
+2. Go to the Menu *Your details* and select *Disable 2 factor authentication.*
 
 ### <h3 id="details"></a> How to change your personal details on SAFE
 
-[Login to SAFE](#login). Then:
-
-1. Go to the Menu *Your details* and select  *Update personal details*
-2. Make the changes you wish
-3. Click *Update* to save the changes
-4. Go back to *Your details* and you will see the revised information
+1. [Login to SAFE](#login)
+2. Go to the Menu *Your details* and select  *Update personal details*
+3. Make the changes you wish
+4. Click *Update* to save the changes
+5. Go back to *Your details* and you will see the revised information
 
 Do not forget the *Update* step, or nothing will happen. Note that your postal address does
 not automatically include the name of your department and institution; if you want these in
@@ -110,39 +111,39 @@ your postal address, you must type them again as part of Address Lines 1-4.
 
 ### <a id="verify"></a> How to verify your email address on SAFE
 
-[Login to SAFE](#login). Then:
-
-1. Go to the Menu *Your details* and select *Update email*
-2. If you want to verify the existing email address, leave the text block blank and click the "Verify" button.
+1. [Login to SAFE](#login)
+2. Go to the Menu *Your details* and select *Update email*
+3. If you want to verify the existing email address, leave the text block blank and click the "Verify" button.
 
 A verification email will then be sent to the registered email address. This email contains a link
 which you must use to verify your address.
 
 ### <a id="chemail"></a> How to change your email address on SAFE
 
-[Login to SAFE](#login). Then:
 
-1. Go to the Menu *Your details* and select *Update email*
-2. Enter the new email address and click *Request*
+1. [Login to SAFE](#login)
+2. Go to the Menu *Your details* and select *Update email*
+3. Enter the new email address and click *Request*
 
 A verification email will then be sent to the new email address. This email contains a link
 which you must use to verify your new address. On acknowledging your new address the change
 will be committed and you must   use the new email address when logging into SAFE
 
 ### <a id="chpass"></a> How to change your SAFE website password
-[Login to SAFE](#login). Then:
 
-1. Go to the Menu *Your details* and select *Change website password*
-1. Type in the new password, and then again to confirm, and click *Change*
+1. [Login to SAFE](#login)
+2. Go to the Menu *Your details* and select *Change website password*
+3. Type in the new password, and then again to confirm, and click *Change*
 
 ### <a id="reset"></a> How to reset your SAFE password
 
-Go to the SAFE logon page [https://safe.epcc.ed.ac.uk](https://safe.epcc.ed.ac.uk).  Then:
-
-1. Click *Forgot password?* next to the *Login* button
-1. Enter your email address
-1. Click *Send password recovery email*
-1. SAFE will mail you a one-time password reset link
+1. Go to the correct SAFE login page
+     - DiRAC Users: [DiRAC SAFE login page](https://safe.epcc.ed.ac.uk/dirac/)
+     - Other systems: [EPCC SAFE login page](https://safe.epcc.ed.ac.uk/)
+2. Click *Forgot password?* next to the *Login* button
+3. Enter your email address
+4. Click *Send password recovery email*
+5. SAFE will mail you a one-time password reset link
 
 SAFE will only mail a password reset link to email addresses already registered in SAFE. 
 
@@ -154,46 +155,33 @@ This can be safely ignored - no changes will be made if the link is not used.
 
 ### <a id="getac"></a> How to request a machine account
 
-[Login to SAFE](#login). Then:
 
-1. Go to the Menu *Login accounts* and select *Request login account* 
-1. Choose the project you want the account for in the "Project" box.  
-1. Click "Next"
-1. Select the machine you want the account for from the available machines. 
-1. Click "Next"
-1. Enter the username you would prefer to use on the service machine and (optionally) add the public part of an SSH key pair to use for login
+1. [Login to SAFE](#login)
+2. Go to the Menu *Login accounts* and select *Request login account* 
+3. Choose the project you want the account for in the "Project" box and click "Next"
+4. Select the machine you want the account for from the available machines and click "Next"
+5. The next step differs for the EPCC SAFE and DiRAC SAFE:
+     - **For EPCC SAFE:** Enter the username you would prefer to use on the service machine and (optionally) add the public part of an SSH key pair to use for login
+     - **For DiRAC SAFE:** Your username is set for you, you may (optionally) add the public part of an SSH key pair to use for login
 1. Click "Request"
+
+Next you will be asked to accept the Service Terms and Conditions of Access, by clicking the
+appropriate button.  When you do this, you will be sent an  acknowledgment by email.
+
+Now you have to wait for your PI or project manager to accept your request to register. When
+this has happened, the systems team are prompted to create your account on the service machine.
+Once this has been done, you will be sent an email. If the service machine is configured to use passwords you can then [pick up your password](#getpass) for the service machine from your SAFE account.
 	
 !!! notes
-    Every username must be unique.  Some machines including ARCHER2 and Cirrus require you to
-    create a new machine account with a unique username for each project you work on.  
-    Usernames cannot be used on multiple projects, even if the previous project has finished.  
-    Some machines require you to have set up an ssh key in SAFE before you can request your
-    machine account.
-
-
-
-
-
-#### Service Machine access policies
-
-
-
-| Service  |  Hosting site | Access policy |
-| -------- | ------------  | ------------- |
-| ARCHER2 |  EPCC | Users must have an SSH public key registered to use the machine<br/>Both password and SSH key required for access |
-| EIDF | EPCC |  Users must have an SSH public key registered to use the machine<br/>Both password and SSH key required for access<br/>2-Factor Authentication is optional |
-| Bede | N8 | Only one account per person is allowed<br/>Users must have a public key registered to use the machine |
-| Cirrus | EPCC | Users must have email addresses from specified organisations<br/>Users must register an SSH public key to access the machine<br/>Both SSH key and TOTP required for access |
-| CSD3 (Peta4-Skylake, Peta4-KNL, Wilkes2-GPU) | University of Cambridge | Only one account per person is allowed<br/>Users must register an SSH public key to access the machine<br/>SSH key used for access (no password-based access) |
-| Isambard | GW4 | Only one account per person is allowed<br/>Users must register an SSH public key to access the machine<br/>SSH key used for access (no password-based access) |
-| Kelvin2 | Queen's University Belfast | Only one account per person is allowed<br/>Users must register an SSH public key to access the machine<br/>SSH key used for access (no password-based access) |
-| Thomas	| MMM Hub | Only one account per person is allowed<br/>Users must register an SSH public key to access the machine<br/>SSH key used for access (no password-based access) |
+    - Every username must be unique.
+    - Some machines including ARCHER2 and Cirrus require you to create a new machine account with a unique username for each project you work on.  In cases, usernames cannot be used on multiple projects, even if the previous project has finished.  
+    - Some machines require you to have set up an ssh key in SAFE before you can request your machine account.
+    - For DiRAC system accounts, your username is set for you
 
 !!! hint
-	If MFA is required for machine access, and you have a Login account on that machine which does not have MFA set up, then the 'Login accounts' menu item will be highlighted and the account name
-	will also be highlighted.  Click on the account name to see further details of what
-	action is required.
+	If TOTP MFA is required for machine access, and you have a Login account on that machine which does not have MFA set up, then
+    the 'Login accounts' menu item will be highlighted and the account name will also be highlighted.  Click on the account name
+    to see further details of what action is required.
 
 !!! hint
     If you set up an ssh key under "Personal Details" in SAFE, then that key will be used now
@@ -202,63 +190,63 @@ This can be safely ignored - no changes will be made if the link is not used.
     You can add a default key for all new accounts under your
     ["Personal Details"](#how-to-change-your-personal-details-on-safe), or add a key specific
     to this account using the "Add Credential" button.
-		
-Next you will be asked to accept the Service Terms and Conditions of Access, by clicking the
-appropriate button.  When you do this, you will be sent an  acknowledgment by email.
 
-Now you have to wait for your PI or project manager to accept your request to register. When
-this has happened, the systems team are prompted to create your account on the service machine.
-Once this has been done, you will be sent an email. If the service machine is configured to use passwords you can then [pick up your password](#getpass) for the service machine from your SAFE account.
+#### EPCC SAFE Service Machine access policies
+
+| Service  |  Hosting site | Access policy |
+| -------- | ------------  | ------------- |
+| ARCHER2 |  EPCC | Users must have an SSH public key registered to use the machine<br/>Both SSH key and TOTP required for access |
+| EIDF | EPCC |  Users must have an SSH public key registered to use the machine<br/>Both SSH key and TOTP required for access |
+| Bede | N8 | Only one account per person is allowed<br/>Users must have a public key registered to use the machine |
+| Cirrus | EPCC | Users must have email addresses from specified organisations<br/>Users must register an SSH public key to access the machine<br/>Both SSH key and TOTP required for access |
+| CSD3 (Peta4-Skylake, Peta4-KNL, Wilkes2-GPU) | University of Cambridge | Only one account per person is allowed<br/>Users must register an SSH public key to access the machine<br/>SSH key used for access (no password-based access) |
+| Isambard | GW4 | Only one account per person is allowed<br/>Users must register an SSH public key to access the machine<br/>SSH key used for access (no password-based access) |
+| Kelvin2 | Queen's University Belfast | Only one account per person is allowed<br/>Users must register an SSH public key to access the machine<br/>SSH key used for access (no password-based access) |
+| Thomas	| MMM Hub | Only one account per person is allowed<br/>Users must register an SSH public key to access the machine<br/>SSH key used for access (no password-based access) |
 
 ### <a id="addssh"></a> How to add an SSH public key to your account
 
 You can have multiple SSH keys registered against your user accounts.
 
-[Login to SAFE](https://safe.epcc.ed.ac.uk). Then:
+1. [Login to SAFE](#login)
+2.  Go to the Menu *Login accounts* and select the ARCHER2 account you want to add the SSH key to
+2.  On the subsequent Login account details page click the *Add Credential* button
+3.  Select *SSH public key* as the Credential Type and click *Next*
+4.  Either copy and paste the public part of your SSH key into the *SSH Public key* box or use the button to select the public key file on your computer.
+5.  Click *Add* to associate the public SSH key part with your account
 
- 1.  Go to the Menu *Login accounts* and select the ARCHER2 account you
-     want to add the SSH key to
- 2.  On the subsequent Login account details page click the *Add
-     Credential* button
- 3.  Select *SSH public key* as the Credential Type and click *Next*
- 4.  Either copy and paste the public part of your SSH key into the
-     *SSH Public key* box or use the button to select the public key
-     file on your computer.
- 5.  Click *Add* to associate the public SSH key part with your account
-
-Once you have done this, your SSH key will be added to your machine
-account.
-
-
+Once you have done this, your SSH key will be added to your machine account.
 
 ### <a id="2fac"></a><a id="mfa"></a> How to turn on MFA on your machine account
 
-For services that require MFA authentication:
+!!! important
+    For services that require MFA authentication, currently:
+    - ARCHER2
+    - Cirrus
+    - EIDF
 
-[Login to SAFE](#login). Then:
-
-1. Go to the Menu *Login accounts*, select the account from the drop down list.
-2. Select *Set MFA-Token*.  A scanable QR code will be displayed.
-2. Install a suitable smart-phone app such as 
+1. [Login to SAFE](#login)
+2. Go to the Menu *Login accounts*, select the account from the drop down list.
+3. Select *Set MFA-Token*.  A scanable QR code will be displayed.
+4. Install a suitable smart-phone app such as 
 google-authenticator ([android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2), [ios](http://appstore.com/googleauthenticator))  or [Microsoft Authenticator](https://www.microsoft.com/en-gb/security/mobile-authenticator-app)  on your phone or mobile device.  If you prefer not to use a personal device, you can use a cross-platform app such as [Authy](https://authy.com/) which works on Windows, MacOS, Linux, Android and ios, or [Authenticator](https://authenticator.cc/) which is a browser plugin which works with Firefox, Chrome or Edge browsers.
-3. Follow the app instructions to add a new account and scan the displayed QR code (or type in the dispayed 26 character key).
-4. Type the verification code generated by the app into the *Verification code (New key)* box.
-5. Click *Set*
+5. Follow the app instructions to add a new account and scan the displayed QR code (or type in the dispayed 26 character key).
+6. Type the verification code generated by the app into the *Verification code (New key)* box.
+7. Click *Set*
 
 MFA is now enabled on this machine account.<br/>
-Each time you log in to the machine using this account, you will enter your ssh key passphrase, and be asked for the current 6-digit authentication code (totp) from the app.
+Each time you log in to the machine using this account, you will enter your ssh key passphrase, and be asked for the current 6-digit authentication code (TOTP) from the app.
 
 ### <h3 id="mfa_off"></a> How to turn off MFA on your machine account
 
-[Login to SAFE](#login). Then:
-
-1. Go to the Menu *Login accounts*, select the account from the drop down list.
-2. Select *Remove MFA-Token*  and then click *Yes* when asked to confirm.
-
+1. [Login to SAFE](#login)
+2. Go to the Menu *Login accounts*, select the account from the drop down list.
+3. Select *Remove MFA-Token*  and then click *Yes* when asked to confirm.
 
 ### <h3 id="reset_machine"></a> How to reset a password on your machine account
 
-For services which require a password and ssh key.
+!!! important
+    Only for services which require a password
 
 If you still remember your current machine account password, you can simply log in to the service
 machine as normal and then use the `passwd` command.
@@ -279,33 +267,29 @@ Usually only one of these will be available. Direct password changes will only b
 
 To request a password reset:
 
-[Login to SAFE](#login). Then:
-
-1. Go to the Menu *Login accounts* and select the account you need the new password for
-2. Click *username* which displays details of this service machine account.
-3. Click * Request Password Reset*
-4. Click *Yes* to confirm
+1. [Login to SAFE](#login)
+2. Go to the Menu *Login accounts* and select the account you need the new password for
+3. Click *username* which displays details of this service machine account.
+4. Click * Request Password Reset*
+5. Click *Yes* to confirm
 
 Now the systems team will change your password. When this has been done, you will be informed by email;
 this means that you can come back to SAFE and [pick up your new password](#getpass).
 
 To change or set a password directly from the SAFE:
 
-[Login to SAFE](#login). Then:
-
-1. Go to the Menu *Login accounts* and select the account you need the new password for
-2. Click *username* which displays details of this service machine account.
-3. Click * Set Password*
-4. Enter your new password in the two password boxes.
-5. Click * Change Password*
+1. [Login to SAFE](#login)
+2. Go to the Menu *Login accounts* and select the account you need the new password for
+3. Click *username* which displays details of this service machine account.
+4. Click * Set Password*
+5. Enter your new password in the two password boxes.
+6. Click * Change Password*
 
 There may be a short delay while the password update takes place.
-
 
 ### <h3 id="getpass"></a> How can I pick up my password for the service machine?
 
 Wait till you receive the email with your details.  Then:
-
 
 1. [Login to SAFE](#login). 
 2. Go to the Menu *Login accounts* and click on the account username for which you want to look up
@@ -316,7 +300,7 @@ Wait till you receive the email with your details.  Then:
 !!! Note
     ARCHER2 account passwords are also sometimes refered to as LDAP passwords by the system
 
-This password is generated randomly by the software. It's best to copy-and-paste it across when you
+This password is generated randomly by the software. It is best to copy-and-paste it across when you
 log in to the service machine.
 	
 After you login, you will be prompted to change the new (LDAP) password. You should paste in the password retreived from
@@ -327,12 +311,11 @@ Note that when you change your password on the service machine  in this way, thi
 
 ### <h3 id="details"></a> How to change your personal details on SAFE
 
-[Login to SAFE](#login). Then:
-
-1. Go to the Menu *Your details* and select  *Update personal details*
-2. Make the changes you wish
-3. Click *Update* to save the changes
-4. Go back to *Your details* and you will see the revised information
+1. [Login to SAFE](#login). 
+2. Go to the Menu *Your details* and select  *Update personal details*
+3. Make the changes you wish
+4. Click *Update* to save the changes
+5. Go back to *Your details* and you will see the revised information
 
 Do not forget the *Update* step, or nothing will happen. Note that your postal address does
 not automatically include the name of your department and institution; if you want these in
@@ -340,15 +323,17 @@ your postal address, you must type them again as part of Address Lines 1-4.
 
 ### <a id="joinproject"></a> How to request to join a project
 
-[Login to SAFE](#login). Then:
+!!! important
+    Only available on some services, currently:
+    - DiRAC systems
 
-1. Go to the Menu *Projects* and select *Request access* 
-1. Choose the project you want the account for in the "Project" box.  
-1. Click "Next"
-1. Select the access route - note that not all projects or machines offer all possible access routes. 
-1. Click "Apply"
-1. Complete the necessary steps, depending on the chosen access route.
-
+1. [Login to SAFE](#login). 
+2. Go to the Menu *Projects* and select *Request access* 
+3. Choose the project you want the account for in the "Project" box.  
+4. Click "Next"
+5. Select the access route - note that not all projects or machines offer all possible access routes. 
+6. Click "Apply"
+7. Complete the necessary steps, depending on the chosen access route.
 
 
 ### <a id="accguest"></a> How to request access to a guest budget
@@ -356,9 +341,7 @@ your postal address, you must type them again as part of Address Lines 1-4.
 A guest budget is a budget in one project which has been set up to permit access requests from
 users in a different project.
 
-[Login to SAFE](#login). Then:
-
-
+1. [Login to SAFE](#login). 
 1. Go to the Menu *Login accounts* and select the login account you want to use to access the
    guest budget
 2. Click on *Request group/budget* 
@@ -367,18 +350,15 @@ users in a different project.
 
 The request will be sent to the PI of the project of the guest budget and once the request has
 been approved then you will be able to use the guest budget code in your jobs submit scripts.
-
-
 	 
 ## <a id="package-group"></a> How to request access to a package group (licensed software or restricted features)
 
-Some software installed on or features of ARCHER2 have restrcited access lists. For example, you may only be allowed
+Some software installed on or features of various machines have restrcited access lists. For example, you may only be allowed
 to access certain software once your licence has been verified.
 
-You request access to these restricted features and software on ARCHER2 through SAFE.
+You request access to these restricted features and software through SAFE.
 
-[Login to SAFE](#login). Then:
-
+1. [Login to SAFE](#login).
 1. Go to the Menu *Login accounts* and select the account which requires access to the feature/software
 2. Click "Request Access to Package"
 3. Select the software/feature from the list of available packages and click "Select"
@@ -387,23 +367,22 @@ You request access to these restricted features and software on ARCHER2 through 
 6. Click "Submit"
 
 Your request will then be processed by the service support team who will verify that you can be granted
-access to the restricted feature/software on ARCHER2. This can take several days depending on the response
+access to the restricted feature/software on the machine. This can take several days depending on the response
 time from external parties who may neeed to very the access request. You will be advised once this has been done.
 
 If you require access to a feature or software which does not yet appear in the list of available packages then please
-just send an email to the Service Desk to request access.  
+send an email to the Service Desk to request access.  
 
 ## <a id="user-mailing"></a> User Mailing Options
 
 ### <a id="mailings"></a> How to view user mailings
 
-All mailings are archived and can be viewed in [SAFE](https://safe.epcc.ed.ac.uk/). 
+All mailings are archived and can be viewed in SAFE. 
 
-[Login to SAFE](#login). Then:
-
-1. Select "Service information"
-2. Select the mailing type you wish to read
-3. Click on "View"
+1. [Login to SAFE](#login).
+2. Select *Service information*
+3. Select the mailing type you wish to read
+4. Click on "View"
 
 ### <a id="mlist"></a> How to get added to, or removed from the email mailing list?
 
@@ -421,12 +400,11 @@ There are three mailing list options available.</p>
   
 Any combination of these three options may be selected via SAFE:
 
-[Login to SAFE](#login). Then:
-
-1. Go to the Menu *Your details* click *Update Email settings*
-2. In the panel headed *Update email settings* make sure there are ticks beside the options you would
+1. [Login to SAFE](#login).
+2. Go to the Menu *Your details* click *Update Email settings*
+3. In the panel headed *Update email settings* make sure there are ticks beside the options you would
    like to subscribe to.
-3. Click *Update List Preferences*
+4. Click *Update List Preferences*
 
 !!! Important
     **Note 1:** There is an option to unsubscribe from the user mailings completely, which overrides any
@@ -450,9 +428,8 @@ Do not forget the *Update* step, or nothing will happen.
 
 ### <a id="ures"></a> How to check how much time and space are available to you
 
-[Login to SAFE](#login). Then:
-
-Go to the Menu *Login accounts*, select the *username* which you wish to 
+1. [Login to SAFE](#login).
+2. Go to the Menu *Login accounts*, select the *username* which you wish to 
 see details for.  
 
 You will then see the information for this account. You will see the quotas for the disk space (if the
@@ -476,11 +453,10 @@ This responsibility lies with the project PI/project manager.
 
 ### <a id="uhist"></a> How to review the use you have made of the service, or the activity of the service as a whole
 
-[Login to SAFE](#login). Then:
-
-1. Go to the Menu *Service information* and select *Reports*
-2. Select the report you wish to run
-3. Complete the required information in the form: this will usually consist of at least a date range to
+1. [Login to SAFE](#login).
+2. Go to the Menu *Service information* and select *Reports*
+3. Select the report you wish to run
+4. Complete the required information in the form: this will usually consist of at least a date range to
    analyse and may have other options depending on the report you are running.
 4. Click on the output format you want to use (Preview, HTML, PDF, CSV)
 
@@ -499,55 +475,64 @@ The SAFE includes functionality for tracking pulications associated with
 projects by registering DOI (Digital Object Identifiers) and automatically
 collecting metadata.
 
-Once registerd, lists of DOIs can be exported in a format suitable for
+Once registered, lists of DOIs can be exported in a format suitable for
 uploading to ResearchFish.
 
 This functionality can be particularly useful for large projects where 
 there is a requirement to capture outputs from a large number of users.
 
+!!! important
+    Adding publications is currently only possible in EPCC SAFE, not DiRAC SAFE
+
 ### <a id="regdoi"></a> How to register a publication in SAFE
+
+!!! important
+    Adding publications is currently only possible in EPCC SAFE, not DiRAC SAFE
 
 You will need a DOI for the publication you wish to register. A DOI 
 has the form of an set of ID strings separated by slashes. For example,
 `10.7488/ds/1505`, you should not include the web host address which
 provides a link to the DOI.
 
-[Login to SAFE](#login). Then:
-
-1. Go to the Menu *Your details* and select *Publications* 
-2. Select the project you wish to associate the publication with from the list and click *View*.
-3. The next page will list currently registered publications, to add one click *Add*.
-4. Enter the DOI in the text field provided and click *Add*
+1. [Login to SAFE](#login).
+2. Go to the Menu *Your details* and select *Publications* 
+3. Select the project you wish to associate the publication with from the list and click "View".
+4. The next page will list currently registered publications, to add one click "Add".
+5. Enter the DOI in the text field provided and click "Add"
 
 ### <a id="listdoi"></a> How to list your publications in SAFE
 
-[Login to SAFE](#login). Then:
+!!! important
+    Adding publications is currently only possible in EPCC SAFE, not DiRAC SAFE
 
-1. Go to the Menu *Your details* and select *Publications* 
-2. Select the project you wish to list the publications from using the dropdown menu and click *View*.
-3. The next page will list your currently registered publications.
+1. [Login to SAFE](#login).
+2. Go to the Menu *Your details* and select *Publications* 
+3. Select the project you wish to list the publications from using the dropdown menu and click *View*.
+4. The next page will list your currently registered publications.
 
 ### <a id="exportdoi"></a> How to export your publications from SAFE
+
+!!! important
+    Adding publications is currently only possible in EPCC SAFE, not DiRAC SAFE
 
 At the moment we support export lists of DOIs to comma-separated values (CSV) files. This
 does not export all the metadata, just the DOIs themselves with a maximum of 25 DOIs per line.
 This format is primarily useful for importing into ResearchFish (where you can paste in the
 comma-separated lists to import publications). We plan to add further export formats in the future.
 
-[Login to SAFE](#login). Then:
-
-1. Go to the Menu *Your details* and select *Publications* 
-2. Select the project you wish to list the publications from using the dropdown menu and click *View*.
-3. The next page will list your currently registered publications.
-4. Click *Export* to generate a plain text comma-separated values (CSV)   file that lists all DOIs.
-5. If required, you can save this file using the Save command your web browser.
+1. [Login to SAFE](#login).
+2. Go to the Menu *Your details* and select *Publications* 
+3. Select the project you wish to list the publications from using the dropdown menu and click "View".
+4. The next page will list your currently registered publications.
+5. Click *Export* to generate a plain text comma-separated values (CSV)   file that lists all DOIs.
+6. If required, you can save this file using the Save command your web browser.
 
 ## <a id="miscellaneous"></a> Miscellaneous
 
 ### <a id="checkq"></a> How to check the queries you have submitted to the service desk
-[Login to SAFE](#login). Then:
 
-1. Go to the Menu *Help and Support * and select *Your support requests* 
+1. [Login to SAFE](#login).
+1. Go to the Menu *Help and Support* and select *Your support requests* 
 2. Click the Query ID of a query to check the contents of the query log
 
 This will show you the queries of yours that have not yet been resolved. Note that some of

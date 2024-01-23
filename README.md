@@ -2,7 +2,7 @@
 
 Documentation source for the EPCC SAFE.
 
-The documentation is built using [Material for mkdocs](https://squidfunk.github.io/mkdocs-material).A
+The documentation is built using [Material for mkdocs](https://squidfunk.github.io/mkdocs-material).
 
 ## mkdocs Commands
 

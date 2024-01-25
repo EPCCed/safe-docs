@@ -5,9 +5,11 @@ This section covers the use of SAFE to:
   - Manage project users on different systems and services
   - Manage project resources on different systems and services
  
+Principal Investigators (grant holders) can manage their allocations via SAFE.
 
-
-Principal Investigators (grant holders) can manage their allocations efficiently via [SAFE](https://safe.epcc.ed.ac.uk).
+!!!important
+   Not all management options are available for all systems. We try to note which
+   functionality is available for individual systems in the sections below. 
 
 <!--
 
@@ -83,55 +85,41 @@ Principal Investigators (grant holders) can manage their allocations efficiently
 
 ### <a name="activate"></a>How to activate your new allocation
 
+After your application for access to a service has been approved by the relevant funding body,
+your new allocation will need to be activated. How this happens depends on the service you are
+accessing and the funding call that awarded the resource. Please refer to the specific call, funder
+and service documentation on how your allocation will be activated. 
 
-After your application for access to ARCHER2 has been approved by the relevant funding body, your new allocation will need to be activated. This can be 	done by sending an email to [ARCHER2 Service desk](mailto:support@archer2.ac.uk). Please quote your grant reference number, the start and 	the end date of the grant, and the name of the PI.
-
-The details will be checked and your new allocation will be set up on the service machine. If your new allocation is a follow-on to your existing  project, you can request for it to be set up as a new [period allocation](#period) under the same project. Alternatively you can request for it to be set up as a new project. Once the project is set up, the PI will receive an email with all the project details.
-
-
+If you have any questions about activating your allocation, please contact the relevant service 
+desk for the service you are using.
 
 ### <a id="andnext"></a>Your allocation has been set up as a project on the service. Your first steps.
 
-Here are some of the things you should consider doing; not all of 	them will be needed for every project.
-
+Here are some of the things you should consider doing; not all of them will be needed for every project.
 
 -  [Change your own SAFE password](../safe-for-users#chpass)
--  [Set up an account on the service machine for yourself](#selfac)
+-  [Set up an account on service machines for yourself](#selfac)
 -  [Make sure other project users get registered](#regusers)
 -  [Designate one or more users as managers of your project](#projman)
 -  [Decide whether you need project groups within your project, in order to administer time and other resources](#projgrp)
 
+### <a id="selfac"></a>How to get your own account on service machines
 
-
-### <a id="selfac"></a>How to get your own account on the service machine
-
-If you are not going to work on the machine yourself, you do not need to do this. You can administer your project through SAFE alone. But if you want a service machine account:
-
-- Go to the Menu *Login accounts* and select *Request login account* 
-- Choose the project you want the account for in the "Project" box. 
-- Click "Next"
-- Select the machine you want the account for from the available machines. 
-- Click "Next"
-- Enter the username you would prefer to use on the service machine 
-
-- Click "Request"
+If you are not going to work on the machine yourself, you do not need to do this. You can administer your
+project through SAFE alone. But if you want a service machine account follow
+[the usual account setup process](../safe-for-users#getacc).
 	
-
 You will get an acknowledgement screen, from which you can return to your main page. 
 As a PI, your account request will be auto-approved.
-
-
 
 ### <a id="projalert"></a>How to check project alerts
 
 [Login to SAFE](../safe-for-users#login)</a>. Then:
 
-		
 - Go to the Menu *Projects* and select the *project* you wish to check
 
 !!! note
-    if there are account approvals waiting, the project name will be highlighted in this list and clicking on the highlight will take you straight to that [Project Notifications](#signup) page.
-
+    if there are account approvals waiting, the project name will be highlighted in this list and clicking on the highlight will take you straight to that page.
 
 - This will display a page with a variety of options for managing your project.
 - Project alerts and warning are highlighted in Amber and Red
@@ -141,16 +129,13 @@ As a PI, your account request will be auto-approved.
 - If the emails should go to someone other than the PI, enter the email address(es) into the 'Recipients for alerts' box. If the PI still wishes to receive alerts their email must be included in this box.
 - Click *Update* to save the changes.
 
-
 Do not forget the *Update* step, or nothing will happen.
-
-
 
 ## <a id="managing-resources"></a> Managing your allocated resources
 
 ### <a id="period"></a> What is "period allocation"
 
-A period allocation is an amount of compute time which has been allocated for a project to use within the specified time period. Period allocations are valid for a specific resource pool (machine) and have definitive start and end dates, which usually coincide with the dates of your EPSRC grant or project award. When the end date of the period allocation passes, any leftover compute time will automatically expire.
+A period allocation is an amount of compute time which has been allocated for a project to use within the specified time period. Period allocations are valid for a specific resource pool (machine) and have definitive start and end dates, which usually coincide with the dates of your grant or project award. When the end date of the period allocation passes, any leftover compute time will automatically expire.
 
 You can view and manage your period allocation via SAFE.
 
@@ -169,39 +154,42 @@ You will then see the details of your current live allocation.
 
     You can skip between the period allocations by clicking on the "Next period>>>"  and "<<< Previous period"  buttons at the bottom of the page.
 
-1. **Resource Pool (machine)**. "XC" refers to ARCHER.
+1. **Resource Pool (machine)**
 1. **Allocation**
 1. **Dates** It is possible to have multiple successive period allocations, but they can never overlap if they are for the same resource pool. Before carrying out any project management tasks please check the dates and make sure you are managing the correct allocation.
 You can skip between the period allocations by clicking on the "Next period>>>" and "<<< Previous period"  buttons at the bottom of the page.
 
-
-You can manage the allocation by [setting up project groups](#projgrp) and [allocating compute time to project groups]("#mvtime).
+You can manage the allocation by [setting up project groups](#projgrp) and [allocating compute time to project groups]("#mvtime) if the project group functionality is available on the machine you have the allocation on.
 Project management tasks for the period allocation can be carried out at any time, but the allocation will be active, i.e. usable, only between the specified dates. Thus, you can set up project groups in advance.
 
 
 ### <a id="projgrp"></a> How can I set up project groups within my project?
 
-Project groups can be used to administer time and other resources within your project. There is always one group which contains all project members but you can create additional groups if you wish.
+Project groups can be used to administer time and other resources within your project. There is always one group which contains all project members but you can create additional groups if you wish and the functionality is supported on the machine you are using.
+
+The following machines currently support the use of project groups:
+- ARCHER2
+- Cirrus
+- DiRAC Extreme Scaling (Tursa)
 	
 [Login to SAFE](../safe-for-users#login) Then:
 
 
 1. Go to the Menu *Projects* and select the *project* you wish to create the group
 
-1. This will display a screen with a variety of options for managing the project.
-1. Click the small arrow beside *Project Groups* to expand this section
-1. Click on the first entry (which will match the project ID)
-1. Click *Add new sub-group* at the bottom of the section
-1. This will take you to the screen for creating new project groups.
+2. This will display a screen with a variety of options for managing the project.
+3. Click the small arrow beside *Project Groups* to expand this section
+4. Click on the first entry (which will match the project ID)
+5. Click *Add new sub-group* at the bottom of the section
+6. This will take you to the screen for creating new project groups.
+
 Fill in a suffix to your project code in the box: for example, if your project code is t01, you might chose t01-a. Project group names cannot
 be more than eight characters in total.
 		
-
-1. <a id="guestbudget"></a>If this group is to be used for <strong>guest budget</strong> users, tick "Guest 	Budget"</br>		
+1. <a id="guestbudget"></a>If this group is to be used for <strong>guest budget</strong> users, tick "Guest Budget"</br>		
 A *guest budget* is a budget in one project which is set up to permit access requests from users in a different project.</li>
 
 1. Click *Create*
-
 
 ### <a id="delgrp"></a>How can I delete a project group?
 
@@ -216,26 +204,20 @@ Then:
 1. Select the project sub-group you want to delete.
 1. Scroll to the bottom of the page and click *Delete*. This will ask for  confirmation that you wish to delete the sub-group. Click *Yes*.
 
-
-
-Deleting a group involves removing its various directories. A human has to do this, so there will be a short delay.
-
+Deleting a group involves removing its various directories - depending on how much data is in the directories, this may take some time.
 
 ### <a id="time"></a>How can I administer time within my project?
 
-Compute Time is held in *budgets*. Every project group has its own budget. There are always at least two project groups 	in your project:
+Compute Time is held in *budgets*. Every project group has its own budget. There are always at least two project groups in your project:
 
 - The *general group*, which has the same code as the project itself. Every member of the project is a member of this group, so the time in its budget is available to them all.
 
 - The *reserve* project group, which has a name of form *t01-reserve*.
 It has no members, so no one can use the time in its budget. This budget can be used to hold time which the PI or project manager wishes to hold in reserve for later use.
 
-
-
 Initially, all your time is in the general group's budget. If you are  happy with all your users using the same budget, you can leave things as they are.
 
 If you wish to divide the time up between groups, you can [create a project group](#projgrp) for each group. In this case you will probably want to move all the time out the general group, since this can be used by everyone. 
-
 
 You may wish to [give time just to a single user](#oneuser).
 This is a special case of a project group: one with only one member.
@@ -284,24 +266,27 @@ Remember that time in the general group's budget is accessible to all, so you wi
 
 ### <a id="space"></a> How can I administer disk space?
 
-Start by reading the discussion of the [administration of time](#time), as the administration of disk space is related to this, and is also done using project groups. The two project groups which 	exist in each project can also be used for administering space.
+Start by reading the discussion of the [administration of time](#time), as the administration of disk space is related to this, and is also done using project groups. The two project groups which exist in each project can also be used for administering space.
 
 - The *general group*, which has the same code as the project itself, includes every member of the project. The disk quotas of this project group can therefore be used by them all.
 - The *reserve* project group, which has a name of form *t01-reserve*, has no members, so no one can use the disk space which is in its quotas. You can use these quotas to hold space which you want to hold in reserve for later.
 
-Homespace and workspace are administered separately. A project has an overall limit for each of these. Within that limit, every portion of space must belong to one or other of the project group quotas. Thus, to 	start with, all the homespace (for example) allocated to a project is either in the general homespace quota or the reserve homespace quota.
+Different file systems are administered separately. A project may have access to multiple file systems on multiple different service machines. Within the disk space allocated on a particular file system every portion of space must belong to one or other of the project group quotas. Thus, to start with, all the quota allocated to a project on a file system is either in the general quota or the reserve quota for that file system.
 Space never belongs to more than one group quota. [The reserve quota is not a real quota, in fact. It has no existence on the service machine - just in the database.]
 
-Beyond the general and reserve quotas, you can also have quotas for the project groups which you create. But this is not compulsory. If you're thinking about using project group quotas, you need to be aware that they are implemented using Unix groups, which are only just adequate for the task.
+!!! note
+    You cannot move disk space on one file system to another file system - you can only allocate file space on a file system to group quotas on te same file system.
 
-Let's use homespace as an example &mdash; workspace is similar. Suppose you are project *t01*. To start with, one Unix group will be assigned to this project. The homespace directories for all users will be in directory `/home/t01/t01/` &mdash; this is where the general group is held. User *john*, for example, will have directory `/home/t01/t01/john/` as his homespace directory. (In fact, if this is the first project he joined, that's where he will log in.) Any file created in any of the directories under `/home/t01/t01/` will belong to the Unix group for project *t01*.
+Beyond the general and reserve quotas, you can also have quotas for the project groups which you create. But this is not compulsory. If you qre thinking about using project group quotas, you need to be aware that they are implemented using Unix groups, which are only just adequate for the task.
+
+Let us use an ARCHER2 work file system as an example (`a2fs-work1`, your project may have access to a different file system). Suppose you are project *t01*. To start with, one Unix group will be assigned to this project. The directories for all users will be in directory `/work/t01/t01/` &mdash; this is where the general group is held. User *john*, for example, will have directory `/work/t01/t01/john/` as his work directory. Any file created in any of the directories under `/work/t01/t01/` will belong to the Unix group for project *t01*.
 
 
-If you create a project group *t01-a* with no homespace quota, this will not change. On the "Group quotas" SAFE page you will see the new project group and under "Usage" and "Quota" you will see "Locked" &mdash; as the group has no quota, it cannot be populated. But the moment you give a homespace quota to this project group, a Unix group will be assigned to it and a directory will be created for it: `/home/t01/t01-a/`
-If user *john* is a member of this project group, he will have a directory `/home/t01/t01-a/john/`.  Any files he creates under that directory will belong to *t01-a* and will be counted against its quota.
+If you create a project group *t01-a* with no quota on ARCHER2 work, this will not change. On the "Group quotas" SAFE page you will see the new project group and under "Usage" and "Quota" you will see "Locked" &mdash; as the group has no quota, it cannot be populated. But the moment you give a quota to this project group on ARCHER2 work, a Unix group will be assigned to it and a directory will be created for it: `/work/t01/t01-a/`
+If user *john* is a member of this project group, he will have a directory `/work/t01/t01-a/john/`.  Any files he creates under that directory will belong to *t01-a* and will be counted against its quota.
 
 
-Of course, *john* is still a member of the general project group, so he can still create files there. If he belongs to other project groups which have quotas, he'll have directories for these as well. He can only create files in the project groups he is a member of, since he can't access the directories of the other groups. It's up to him to make sure that he creates his files in the right places, so that they get charged to the right project groups.
+Of course, *john* is still a member of the general project group, so he can still create files there. If he belongs to other project groups which have quotas, he will have directories for these as well. He can only create files in the project groups he is a member of, since he cannot access the directories of the other groups. It is up to him to make sure that he creates his files in the right places, so that they get charged to the right project groups.
 
 
 <!--
@@ -309,14 +294,14 @@ Of course, *john* is still a member of the general project group, so he can stil
 system's technology can do.</p>
 -->
 
-You should also note that once you have instituted project group quotas, there's no easy way back. Removing them and reassigning all the files to other groups is a complex job and will require special arrangement with the system team &mdash; send a request to the [Service desk](mailto:support@archer2.ac.uk) if you need to do this.
+You should also note that once you have instituted project group quotas, there is no easy way back. Removing them and reassigning all the files to other groups is a complex job and will require special arrangement with the service team &mdash; send a request to the appropriate Service Desk.
 
 
-Most projects in fact use their project groups only for administering time, and allow their users to have access to all their space. You could if you wish make use of [user quotas](#persquota) to stop individual users from taking too much space.
+Most projects, in fact, use their project groups only for administering time, and allow their users to have access to all their space. You could, if you wish, make use of [user quotas](#persquota) (if they are supported on the file system you have access to) to stop individual users from taking too much space.
 
 
 !!! Note 
-    The above points do not apply to the reserve quotas, since they don't exist on the service machine. They're just a book-keeping fiction, and using them is cost free. We recommend this to any project which is concerned about running out of space.
+    The above points do not apply to the reserve quotas, since they do not exist on the service machine. They are just a book-keeping fiction, and using them is cost free. We recommend this to any project which is concerned about running out of space.
 
 
 ### <a id="mvspace"></a> How can I create a quota for a project group, or move space between quotas?
@@ -349,6 +334,12 @@ Quota changes are actually carried out by a human being. Once this has been done
 
 ### <a id="persquota"></a>How can I set a quota for an individual user?
 
+User quota control is not available on all machines. Current machines that support this are:
+
+- ARCHER2
+- Cirrus
+- DiRAC Extreme Scaling (Tursa)
+
 User disk quotas are completely separate from project group quotas. A user quota simply places a limit on the amount of space which a particular user can occupy in workspace or homespace. There's nothing to stop you setting user quotas which add up to more (or less) than the total space. To set a quota for a user or users:
 
 [Login to SAFE](../safe-for-users#login) Then:
@@ -370,17 +361,14 @@ As with group quotas on the work file-system you can only be absolutely sure of 
 
 ### <a id="regusers"></a> How can project users get registered?
 
-You must not apply for machine accounts on behalf of other users, or let others use accounts that belong to you. Account sharing is strictly forbidden on ARCHER2. 
-
+You must not apply for machine accounts on behalf of other users, or let others use accounts that belong to you. Account sharing is strictly forbidden.
 
 Every user must [register on SAFE](../safe-for-users#register) and then [apply for their own machine account](../safe-for-users#getac).
 
-In order to request an account, a potential user just needs to know the project machine and  code.
-
+In order to request an account, a potential user just needs to know the project machine and code.
 		
 1. Give the users the project code and any advice on what username they should request in your project if you wish.
 1. Every user should then [register on SAFE](../safe-for-users#register) and then [apply for their own machine account](../safe-for-users#getac)
-
 
 or you can send an Invite to a new user:
 
@@ -417,13 +405,11 @@ If you now accept the user, they will get an account. This is the last chance to
 
 When you accept a user, the systems team is automatically requested to create the account on the service machine. When this has been done, the user is emailed; allow a working day for this. The user can then login to SAFE and [pick up their password on the service machine](../safe-for-users#getpass).
 
-
-When you click Accept you will then be taken to a list of all the [Project Groups](#projgrp) in your project, so you can easily add the new user to the group(s) they will be using.
-Simply tick the box against any groups they should be a member of, and then click "OK".
-
+When you click Accept you will then be taken to a list of all the [Project Groups](#projgrp) in your project, so you can easily add the new user to the group(s) they will be using. Simply tick the box against any groups they should be a member of, and then click "OK".
 
 
 ### <a id="projman"></a> How can I designate a user as a project manager?
+
 A project manager can do everything in a project that a PI can do, except designate another project manager. You can designate as many project managers as you wish.
 
  
@@ -447,7 +433,7 @@ The options available are
 - Move Group Quota
 
 
-<p>You can enable these using the "Set member permissions" button</p>
+You can enable these using the "Set member permissions" button
 
 
 ### <a id="groupman"></a> How can I designate a user as a project sub-group	manager?
@@ -501,9 +487,9 @@ A user can belong to more than one project group.
 ### <a id="remuser"></a> How can I remove a user (or users) from my project?
 
 
-Please check the [ARCHER2 policy](https://www.archer2.ac.uk/about/policies/project_account_closing) on on end  of life procedures for ARCHER2 user accounts.
+Please check the policy on on end of life procedures for user accounts on the system you are using.
 
-If you wish to remove a user from your project, you can email [support@archer2.ac.uk](mailto:support@archer2.ac.uk) giving the username of the user to be deleted.
+If you wish to remove a user from your project, you can email the appropriate Service Desk for the system giving the username of the user to be deleted.
 Service desk staff will arrange for the account to be deleted, in line with the policy.  
 
 You can remove an account from your project in SAFE by selecting the project from your Projects list and then under "Manage members" choose "Remove account".  <b>Removing an account also immediately removes all associated data permanently</b>, so must be done with great caution. 
@@ -533,8 +519,6 @@ You can remove an account from your project in SAFE by selecting the project fro
 1. Go to the Menu *Projects* and select the *project* you wish to work on.
 1. Under *Project groups* you can see the current state of each project group's budgets. If it uses disk quotas, you will see these, together with how much of is in use.
 
-
-
 If a project group's use of a quota is getting close to the maximum, it is highlighted.</p>
 
 The budget values displayed are updated every morning, and the values shown for disk use are updated four times a day. For this reason, these values may not all be completely up-to-date. If there is a lot of activity in your project, the numbers shown could be significantly different from the current ones.
@@ -545,12 +529,10 @@ This can be done using the Report Generator
 
 [Login to SAFE](../safe-for-users#login) Then:
 
-1. Go to the Menu *Service information* and select *Report generator*
-1. Choose a report format: Preview, HTML, PDF or CSV (comma-separated values &mdash; good for input to Excel, *etc.*)
+1. Go to the Menu *Service information* and select *Reports*
+1. Choose the "Project Report" report
 1. Select the start and end dates of the period you are interested in
-1. Select *Project Information*. (Only PIs and project managers see this section)
-1. Select the information you need.
-1. Click *Generate Report*
+1. Click the button to select a report format: Preview, HTML, PDF or CSV (comma-separated values &mdash; good for input to Excel, *etc.*)
 1. If you initially selected Preview and would now like this report in one of the other formats, you can now click the format you wish and the same report parameters will be used to generate the report.
 
 ### <a id="autorep"></a> How to request automatic project reports
@@ -565,15 +547,14 @@ This can be done using the Report Generator
 
 ### <a id="udisk"></a> How to check how much space my project's users are occupying
 
-Use the Report Generator (see the [previous question](#phist)), and select *User disk use*. The Report Generator displays the history of disk use &mdash; to see the current use, make sure that the reporting period includes the present moment. The disk usage values known to the database are updated four times a day, so if there is a lot of activity in your project, the numbers shown could be significantly different from the current ones.
+Use the Reports menu item  (see the [earlier question](#phist)), and select the "Project Disk Use" report. The Report Generator displays the history of disk use &mdash; to see the current use, make sure that the reporting period includes the present moment. The disk usage values known to the database are updated four times a day, so if there is a lot of activity in your project, the numbers shown could be significantly different from the current ones.
 
+There is an unresolvable problem with this: if a user has an account which belongs to more than one project, the disk usage shown for that account will be the total that the account is using in all those projects combined.
 
-There's an unresolvable problem with this: if a user has an account which belongs to more than one project, the disk usage shown for that account will be the total that the account is using in all those projects combined.
+### <a id="more"></a> How to request more resources (compute time and file system space)
 
-### <a id="more"></a> How to request more resources (AUs and disk space)
+If you need more file system space, contact the appropriate Service Desk.
 
-If you need more home or work space, contact the [Service desk](https://www.archer2.ac.uk/support-access/servicedesk.html). We will always receive such requests sympathetically, and it is likely that we will be able to allocate some more to your project. 
-
-If you need extra time, you should contact the research council which is funding your project. The helpdesk cannot allocate time without authorisation from them.</p>
+If you need extra time, you should contact the funder for your project. The Service Desk cannot allocate time without authorisation from them.</p>
 
 

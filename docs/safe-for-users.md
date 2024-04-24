@@ -469,6 +469,16 @@ be used to generate the report.
 If you are a PI or Project Manager, you will have access to additional reports to generate information on
 whole projects or groups as well as your own usage and the usage of the service as a whole.
 
+### <a id="jobs"></a>  How to see a report of all your jobs and their usage
+
+1. [Login to SAFE](#login).
+2. Go to the Menu *Login Accounts* and select the machine account you want to report on
+3. Scroll to the bottom of the screen and select *User Job Report* in the table *User Reports*
+4. Select a time period which would cover the time the job ended e.g. starting one week prior to today for 1 month 
+5. Click on *Preview*
+
+All the jobs run by that account will be listed, including information on when they were submitted, started and ended, and the Raw Usage, which is a note of the time used on the machine, and Charged Usage, which will usually be the same as the Raw Usage, but will be Zero for uncharged jobs.
+
 ## <a id="pubs"></a> Tracking Publications (DOI)
 
 The SAFE includes functionality for tracking pulications associated with

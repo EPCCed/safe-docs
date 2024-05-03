@@ -335,7 +335,7 @@ your postal address, you must type them again as part of Address Lines 1-4.
 6. Click "Apply"
 7. Complete the necessary steps, depending on the chosen access route.
 
-### <a id="joinproject"></a> How to change your primary project (home directory location)
+### <a id="primaryproject"></a> How to change your primary project (home directory location)
 
 !!! important
     Only available on some services, currently:

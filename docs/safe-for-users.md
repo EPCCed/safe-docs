@@ -335,6 +335,21 @@ your postal address, you must type them again as part of Address Lines 1-4.
 6. Click "Apply"
 7. Complete the necessary steps, depending on the chosen access route.
 
+### <a id="joinproject"></a> How to change your primary project (home directory location)
+
+!!! important
+    Only available on some services, currently:
+    - DiRAC systems: ES-Tursa
+
+When your machine account is a member of multiple projects, the "Primary Project" controls which
+project is your home directory. You should generally set the Primary Project to the project where
+you want to use the storage resources for your data.
+
+1. [Login to SAFE](#login). 
+2. Go to the Menu *Login accounts* and click on the account username for which you want to change the default project. This will display details of your account. 
+3. Click *Change primary Project*
+4. Choose the project you want to set as the Primary Project from the drop down list  
+5. Click "Switch"
 
 ### <a id="accguest"></a> How to request access to a guest budget
 

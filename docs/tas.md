@@ -19,9 +19,7 @@ Any TAs you have created previously will be shown.
 
 To begin a new TA, click on Create.
 
-
-
-Select the correct access Call from the drop-down list of available Calls.
+Select the correct access Call from the drop-down list of available Calls.  This information may have been included in any communication asking you to complete the Technical Assessment.
 
 <details>
   <summary>Click for image</summary>
@@ -78,9 +76,11 @@ The system will default to setting you as the proposed project PI, as you have e
 
 Click Next.
 
-If the PI email entered previously does not yet have a SAFE account associated with it, then you must enter the details of the PI's Title, Name, Lastname and Institution
+If the PI email entered previously does not yet have a SAFE account associated with it, then you must enter the details of the PI's Title, Name, Lastname and Institution.
 
 If you wish to receive correspondence and updates about the project and the TA approval, leave your email as the Contact email for this proposal.
+
+Any person whose details (email address) are added for which a SAFE account does not yet exist will have an account created for them automatically.
 
 Click Next.
 
@@ -147,16 +147,18 @@ The split is entirely at the discretion of the PI, but should take into account 
 
 Check that the sum of your allocation periods match the total compute resource requested.
 
-
-
 Click Update.
+
+## Reviewing and Editing
+
+The PI or the Contact (as entered under [People](#people) above) can go back and edit any of the sections, in any order, as many times as you wish, until you proceed to Submit.  
 
 ## Submit
 
-Once all sections are 100% completed then an additional Submit button will appear at the foot of the page.  Remember you must enter something into all the data entry fields, even if it is "n/a"
+Once all sections are 100% completed then an additional Submit button will appear at the foot of the page.  Remember you must enter something into all the data entry fields, even if it is "n/a".
+
 
 Once you are happy that all the details are complete and correct, click on Submit, then Update.
-
 
 
 The Technical Assessment will now show as status "Submitted" and will be reviewed by the Service Team who will get back to you if they have any questions or comments.

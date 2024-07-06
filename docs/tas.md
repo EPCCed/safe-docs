@@ -52,9 +52,15 @@ If all details were filled in then you should see TechnicalAssessment update Sta
 
 The assessment is now entered into SAFE, but there are still many details to enter before it is complete.
 
+!!!hint
+	All sections must be 100% completed before you will be able to Submit your assessment.<br>
+    If any part of any section is not relevant, always enter something such as "n/a" into the field.<br>
+    The final [Submit](#submit) button will appear once all sections are completed.
+
 Click on the `TechnicalAssessment.NNN` above to go back into the Technical Assessment and proceed to enter the remaining details.
 
-
+!!!hint
+    You can always return to the form, if you wish, by selecting Technical Assessments under the Apply menu, and selecting the `TechnialAssessment.NNN` under ID
 
 ## People
 
@@ -123,7 +129,7 @@ The Notional Cost can be calculated using the figures from the appropriate servi
 - [ARCHER2](https://www.archer2.ac.uk/support-access/cu-calc.html)
 - [Cirrus](https://www.cirrus.ac.uk/access/grant#notional-costs)
 
-Enter the storage required for core source files and data sets (/home backed up storage)
+Enter the storage required for core source files and data sets (/home backed up storage)<br>
 Enter the storage required for working storage  (/work no backup, fast access storage)
 
 
@@ -171,11 +177,13 @@ The Technical Assessment will now show as status "Submitted" and will be reviewe
 
 ## Seeing your Technical Assessments
 
-You can still view the information that you entered, but cannot make further updates to the form.  In the event you realise there is a significant error, please contact the Support desk for the service you have applied to, with details, so they can amend your form if required.
+You can always see your active (incomplete and submitted) Technical Assessments in SAFE under the Apply menu.
+
+Once submitted, can still view the information that you entered, but cannot make further updates to the form.  In the event you realise there is a significant error, please contact the Support desk for the service you have applied to, with details, so they can amend your form if required.
 
 If you have other project proposals, then you can go ahead and Create a new TechnicalAssessment for those.
 
-You can always see your active (incomplete and submitted) Technical Assessments in SAFE under the Apply menu.
+
 
 
 

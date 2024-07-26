@@ -113,7 +113,14 @@ Click Update.
 
 ## Support
 
-Click on Support, and fill in details about the main codes your project will be using, the software (compilers, libraries, tools) that you will need.
+Click on Support.
+
+<details>
+  <summary>Click for image</summary>
+    <img src="../images/tas/ta14.jpg"></img>
+</details> 
+
+and fill in details about the main codes your project will be using, the software (compilers, libraries, tools) that you will need.
 Briefly describe how you will port and optimize your code and any other support requirements.  Please enter something into each box.
 
 Click Update.
@@ -121,6 +128,11 @@ Click Update.
 ## Resource
 
 Click on Resource.
+
+<details>
+  <summary>Click for image</summary>
+    <img src="../images/tas/ta15.jpg"></img>
+</details>
 
 Enter the total compute resource you are requesting for this project - the units used will be determined by which HPC service you are applying to.
 
@@ -139,6 +151,11 @@ Click Update.
 ## Period
 
 Click on Period.
+
+<details>
+  <summary>Click for image</summary>
+    <img src="../images/tas/ta16.jpg"></img>
+</details>
 
 Because the compute resource allocation will be broken down into Allocation Periods spread throughout the lifetime of the project, in this section you indicate how you would like this split.
 

@@ -62,7 +62,10 @@ Click on the `TechnicalAssessment.NNN` above to go back into the Technical Asses
 !!!hint
     You can always return to the form, if you wish, by selecting Technical Assessments under the Apply menu, and selecting the `TechnialAssessment.NNN` under ID
 
-## People
+
+## Sections:
+
+### People
 
 Click on the People button at the foot of the screen
 
@@ -111,7 +114,7 @@ Click on the Experience button and fill in details of which other HPC resources 
 
 Click Update.
 
-## Support
+### Support
 
 Click on Support.
 
@@ -125,7 +128,7 @@ Briefly describe how you will port and optimize your code and any other support 
 
 Click Update.
 
-## Resource
+### Resource
 
 Click on Resource.
 
@@ -148,7 +151,7 @@ Enter the storage required for working storage  (/work no backup, fast access st
 
 Click Update.
 
-## Period
+### Period
 
 Click on Period.
 

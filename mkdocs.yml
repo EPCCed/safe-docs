@@ -32,3 +32,4 @@ nav:
   - "Documentation overview": index.md
   - "SAFE for users": safe-for-users.md
   - "SAFE for PIs and Project Managers": safe-for-managers.md
+  - "Technical Assessments for Project applications": tas.md

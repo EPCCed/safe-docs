@@ -65,6 +65,30 @@ Click on the `TechnicalAssessment.NNN` above to go back into the Technical Asses
 
 ## Sections:
 
+### Invite
+
+The system will default to setting you as the proposed project PI, as you have entered the TA details, but if you are filling this in on behalf of the PI, or anyone else needs to be included on the application e.g. as the contact person, you need to Invite them to the TA.
+
+Click on the Invite button at the foot of the screen
+
+<details>
+  <summary>Click for image</summary>
+    <img src="../images/tas/ta17.jpg"></img>
+</details>
+
+Fill in the email address of the person, and fill in a short message to let them know why they are being invited.
+
+<details>
+  <summary>Click for image</summary>
+    <img src="../images/tas/ta18.jpg"></img>
+</details>
+
+Click Send
+
+Any person whose details (email address) are added for which a SAFE account does not yet exist will have an account created for them automatically.
+
+Repeat the invite process for any others who need to contribute to the TA
+
 ### People
 
 Click on the People button at the foot of the screen
@@ -74,26 +98,17 @@ Click on the People button at the foot of the screen
     <img src="../images/tas/ta06.jpg"></img>
 </details>
 
-The system will default to setting you as the proposed project PI, as you have entered the TA details, but if you are filling this in on behalf of the PI, enter their email address here instead of your own.
-
-
+The system will default to setting you as the proposed project PI, but you can select any of the people who you have invited as the PI, and/or as the Contact, once they have accepted the invitation you sent.
 
 <details>
   <summary>Click for image</summary>
-    <img src="../images/tas/ta07.jpg"></img>
+    <img src="../images/tas/ta19.jpg"></img>
 </details>
-
-Click Next.
-
-If the PI email entered previously does not yet have a SAFE account associated with it, then you must enter the details of the PI's Title, Name, Lastname and Institution.
 
 If you wish to receive correspondence and updates about the project and the TA approval, leave your email as the Contact email for this proposal.
 
-Any person whose details (email address) are added for which a SAFE account does not yet exist will have an account created for them automatically.
 
-Click Next.
-
-Check that all the details entered are correct, then click Update.
+Click Update.
 
 <details>
   <summary>Click for image</summary>

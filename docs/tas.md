@@ -85,7 +85,7 @@ Fill in the email address of the person, and fill in a short message to let them
 
 Click Send
 
-Any person whose details (email address) are added for which a SAFE account does not yet exist will have an account created for them automatically.
+Any person whose details (email address) are added for which a SAFE account does not yet exist will need to set up their SAFE account, using that email address.
 
 Repeat the invite process for any others who need to contribute to the TA
 
@@ -200,6 +200,10 @@ Once all sections are 100% completed then an additional Submit button will appea
 
 
 Once you are happy that all the details are complete and correct, click on Submit, then Update.
+
+
+!!! warning
+    You MUST click Submit on the TA, it will not be passed on for review until you submit it.
 
 
 The Technical Assessment will now show as status "Submitted" and will be reviewed by the Service Team who will get back to you if they have any questions or comments.

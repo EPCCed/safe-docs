@@ -328,12 +328,11 @@ your postal address, you must type them again as part of Address Lines 1-4.
     - DiRAC systems
 
 1. [Login to SAFE](#login). 
-2. Go to the Menu *Projects* and select *Request access* 
-3. Choose the project you want the account for in the "Project" box.  
-4. Click "Next"
-5. Select the access route - note that not all projects or machines offer all possible access routes. 
-6. Click "Apply"
-7. Complete the necessary steps, depending on the chosen access route.
+2. Go to the Menu *Login accounts* and select the account you wish to use to join the project
+3. From the buttons at the bottom of this page click "Join Project"
+4. Enter the ID of the project you wish to join in the text box
+4. Click "Join"
+
 
 ### <a id="primaryproject"></a> How to change your primary project (home directory location)
 

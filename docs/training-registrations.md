@@ -35,7 +35,7 @@ Enter a brief statement under "Reason for applying"
 
 Select the region where you are currently living/studying/working from the list of options.
 
-Enter the username you will use for your machine account (if requested).  This must be a NEW username and not a username you already have on the machine.
+A username will be auto-generated for you - this will be a new machine account for the course project only. 
 
 Tick the box to accept the [Terms and Conditions of access](https://www.archer2.ac.uk/about/policies/tandc.html) and [Training Code of Conduct](https://www.archer2.ac.uk/about/policies/code-of-conduct)
 

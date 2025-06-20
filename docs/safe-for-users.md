@@ -97,6 +97,8 @@ login, you will also be asked for the current 6-digit authentication code from t
 1. [Login to SAFE](#login)
 2. Go to the Menu *Your details* and select *Disable 2 factor authentication.*
 
+If you have lost access to your authentication app and are unable to log in to SAFE, please contact the [service desk](mailto:support@archer2.ac.uk) who will be able to assist.
+
 ### <h3 id="details"></a> How to change your personal details on SAFE
 
 1. [Login to SAFE](#login)

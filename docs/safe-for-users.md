@@ -99,19 +99,29 @@ login, you will also be asked for the current 6-digit authentication code from t
 
 If you have lost access to your authentication app and are unable to log in to SAFE, please contact the [service desk](mailto:support@archer2.ac.uk) who will be able to assist.
 
-### <h3 id="details"></a> How to change your personal details on SAFE
+### <h3 id="details"></a> How to change or verify your personal details on SAFE
+
+Every year you will be reminded *"Your user details need to be updated/verified"*
+
+When this update is due, the Alert symbol (a yellow bell) will appear beside your name and email in the menu bar of SAFE.  When you hover over this, you will see a similar alert beside the "Update personal details" menu item.  The alert symbol will clear once this has been completed successfully.
 
 1. [Login to SAFE](#login)
 2. Go to the Menu *Your details* and select  *Update personal details*
-3. Make the changes you wish
-4. Click *Update* to save the changes
+3. Make any changes needed - if this is the annual verification and nothing has changed, leave as is
+4. Click *Update* to save the changes and complete the verification
 5. Go back to *Your details* and you will see the revised information
 
-Do not forget the *Update* step, or nothing will happen. Note that your postal address does
+Do not forget the *Update* step, or nothing will happen. 
+
+Note that your postal address does
 not automatically include the name of your department and institution; if you want these in
 your postal address, you must type them again as part of Address Lines 1-4.
 
 ### <a id="verify"></a> How to verify your email address on SAFE
+
+Every year you will be reminded *"Your email address needs to be updated/verified"*
+
+When this update is due, the Alert symbol (a yellow bell) will appear beside your name and email in the menu bar of SAFE.  When you hover over this, you will see a similar alert beside the "Update email" menu item. The alert symbol will clear once the verification has been completed successfully.
 
 1. [Login to SAFE](#login)
 2. Go to the Menu *Your details* and select *Update email*
@@ -119,6 +129,7 @@ your postal address, you must type them again as part of Address Lines 1-4.
 
 A verification email will then be sent to the registered email address. This email contains a link
 which you must use to verify your address.
+
 
 ### <a id="chemail"></a> How to change your email address on SAFE
 

@@ -217,6 +217,40 @@ Once this has been done, you will be sent an email. If the service machine is co
 | Kelvin2 | Queen's University Belfast | Only one account per person is allowed<br/>Users must register an SSH public key to access the machine<br/>SSH key used for access (no password-based access) |
 | Thomas	| MMM Hub | Only one account per person is allowed<br/>Users must register an SSH public key to access the machine<br/>SSH key used for access (no password-based access) |
 
+### <a id="genssh"></a> How to generate an SSH key pair
+
+You may need to generate an SSH key pair protected by a passphrase to access HPC systems.
+
+Using a [terminal](#command-line-terminal) (the command line), set up a key pair that contains
+your e-mail address and enter a passphrase you will use to unlock the
+key:
+
+    $ ssh-keygen -t rsa -C "your@email.com"
+    ...
+    -bash-4.1$ ssh-keygen -t rsa -C "your@email.com"
+    Generating public/private rsa key pair.
+    Enter file in which to save the key (/Home/user/.ssh/id_rsa): [Enter]
+    Enter passphrase (empty for no passphrase): [Passphrase]
+    Enter same passphrase again: [Passphrase]
+    Your identification has been saved in /Home/user/.ssh/id_rsa.
+    Your public key has been saved in /Home/user/.ssh/id_rsa.pub.
+    The key fingerprint is:
+    03:d4:c4:6d:58:0a:e2:4a:f8:73:9a:e8:e3:07:16:c8 your@email.com
+    The key's randomart image is:
+    +--[ RSA 2048]----+
+    |    . ...+o++++. |
+    | . . . =o..      |
+    |+ . . .......o o |
+    |oE .   .         |
+    |o =     .   S    |
+    |.    +.+     .   |
+    |.  oo            |
+    |.  .             |
+    | ..              |
+    +-----------------+
+
+(remember to replace "your@email.com" with your e-mail address).
+
 ### <a id="addssh"></a> How to add an SSH public key to your account
 
 You can have multiple SSH keys registered against your user accounts.

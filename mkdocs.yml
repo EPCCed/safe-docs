@@ -9,7 +9,7 @@ theme:
     - tabs
   icon:
     repo: fontawesome/brands/github
-    
+
 extra_css:
   - stylesheets/archer2.css
 
@@ -32,5 +32,6 @@ nav:
   - "Documentation overview": index.md
   - "SAFE for users": safe-for-users.md
   - "SAFE for PIs and Project Managers": safe-for-managers.md
+  - "SAFE for EPCC TRE Research Coordinators": safe-for-tre-rcs.md
   - "Technical Assessments for Project applications": tas.md
   - "Training Course Registrations": training-registrations.md

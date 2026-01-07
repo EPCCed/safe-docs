@@ -1,23 +1,23 @@
-# SAFE for EPCC TRE Research Coordinators
+# SAFE for EPCC SHS Research Coordinators
 
-This section covers the use of SAFE within the EPCC TRE to:
+This section covers the use of SAFE within EPCC SHS to:
 
   - Manage research studies within your Safe Haven
   - Manage users of your Safe Haven
 
 !!!important
-    To remain consistent with other usage of SAFE and other parts of this documentation site, SAFE uses terminology which may be different from your internal documentation or from other documentation regarding the EPCC TRE.
+    To remain consistent with other usage of SAFE and other parts of this documentation site, SAFE uses terminology which may be different from your internal documentation or from other documentation regarding EPCC SHS.
     In particular, SAFE, and the rest of this document, uses the term *Project* to represent a Safe Haven, *Group* (or *sub-group*) to represent a research study, and *Machine* to represent resources within your Safe Haven or that it has access to, most commonly one Remote Desktop Gateway (VDI) and one set of desktop VMs.
-    Additionally, much functionality listed elsewhere on this documentation site may be currently disabled (or not relevant) within the EPCC TRE SAFE.
+    Additionally, much functionality listed elsewhere on this documentation site may be currently disabled (or not relevant) within the EPCC SHS SAFE.
 
 ## <a name="getting-started"></a>Getting Started
 
-### <a name="login"></a>How to access the EPCC TRE SAFE
+### <a name="login"></a>How to access the EPCC SHS SAFE
 
-After your Safe Haven has been enabled for use with the EPCC TRE SAFE instance, you will be provided with the address to access the service.
-This access to the EPCC TRE SAFE is currently only available from within the EPCC TRE itself.
+After your Safe Haven has been enabled for use with the EPCC SHS SAFE instance, you will be provided with the address to access the service.
+This access to the EPCC SHS SAFE is currently only available from within EPCC SHS itself.
 You should access your Safe Haven using your [usual service URL](https://docs.eidf.ac.uk/safe-haven-services/safe-haven-access/) and a [Remote Desktop Session](https://docs.eidf.ac.uk/safe-haven-services/virtual-desktop-connections/#connecting-to-a-remote-desktop-session).
-From within the remote desktop session, you can open a browser and enter the address for the EPCC TRE SAFE.
+From within the remote desktop session, you can open a browser and enter the address for the EPCC SHS SAFE.
 Each research coordinator will be provided with a username and initial password to use to [login to SAFE](safe-for-users#login).
 
 If you have any questions about access, please contact your relevant service desk.
@@ -84,7 +84,7 @@ This will request the group to be created.
 Currently, after creating a new group, you **must** contact your service desk to notify them and discuss which VM the group's users should have access to *before* attempting to add any users to the group.
 
 !!!important
-    Requests to create groups (as well as any other requests that interact with the TRE such as creating users or resetting passwords) are completed by automated processes.
+    Requests to create groups (as well as any other requests that interact with the SHS such as creating users or resetting passwords) are completed by automated processes.
     These processes are completed in the background, with SAFE reflecting the results once completed.
     These requests are not instant, and you will have to wait until they are completed, which is variable depending on the type of request and other activity.
     However, they should usually be completed within the order of minutes, and so you should contact your service desk if a request has not completed in the expected time.
@@ -107,7 +107,7 @@ Currently, after creating a new group, you **must** contact your service desk to
 1. Enter the email address of the person to whom the account will belong in the text box labelled *Email*
 1. Enter the planned expiry date of the account in the text box labelled *ExpiryDate*
 1. Click *Next*
-1. Enter the user's name into the text fields (title & initials are optional). If the email address you entered in the previous step has already been associated with an account in the EPCC TRE SAFE, details will be presented to you and you will not be able to change them. If these details do not match what you were expecting, you should query this with the user and/or service desk.
+1. Enter the user's name into the text fields (title & initials are optional). If the email address you entered in the previous step has already been associated with an account in the EPCC SHS SAFE, details will be presented to you and you will not be able to change them. If these details do not match what you were expecting, you should query this with the user and/or service desk.
 1. Click *Next*
 1. You will be shown the planned username for the user, although you should note that this is not confirmed until the account is created
 1. If your Safe Haven has one or more webproxies available, select whether you wish the user to have access to one in the drop-down labelled *Webproxy*
@@ -125,7 +125,7 @@ Remember that you need to provide the user with passwords for both accounts.
 Note that this screen is only ever intended to show you the initial password - when the user changes the password (as they will be forced to upon first login) this change will not be visible to the SAFE, and only the user will know the new password.
 
 !!!important
-    If this account is for a person who does not have any existing accounts with the EPCC TRE, you must raise a ticket with the service desk to create a [2FA account for them](https://docs.eidf.ac.uk/safe-haven-services/safe-haven-access/#safe-haven-login), providing their name and mobile phone number. If this account is for a person at an organisation which does not currently have access to the EPCC TRE, you must also raise a ticket with the service desk to discuss [network access controls](https://docs.eidf.ac.uk/safe-haven-services/network-access-controls/).
+    If this account is for a person who does not have any existing accounts with EPCC SHS, you must raise a ticket with the service desk to create a [2FA account for them](https://docs.eidf.ac.uk/safe-haven-services/safe-haven-access/#safe-haven-login), providing their name and mobile phone number. If this account is for a person at an organisation which does not currently have access to EPCC SHS, you must also raise a ticket with the service desk to discuss [network access controls](https://docs.eidf.ac.uk/safe-haven-services/network-access-controls/).
 
 ### <a id="resetpwd"></a> How can I reset the password for an account
 
@@ -143,7 +143,7 @@ Once the password reset has been completed, you will be able to view and supply 
 ### <a id="autorep"></a> How to request automatic project reports
 
 SAFE can be configured to send automatic reports.
-Currently, the EPCC TRE SAFE can send a report listing the project managers for each project.
+Currently, the EPCC SHS SAFE can send a report listing the project managers for each project.
 
 1. [Login to SAFE](#login)
 1. Go to the Menu *Projects* and select the project you wish to work on. This will display a screen with a variety of options for managing the project.

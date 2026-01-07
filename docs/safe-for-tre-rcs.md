@@ -124,6 +124,9 @@ You should supply this password to the user using your normal processes.
 Remember that you need to provide the user with passwords for both accounts.
 Note that this screen is only ever intended to show you the initial password - when the user changes the password (as they will be forced to upon first login) this change will not be visible to the SAFE, and only the user will know the new password.
 
+!!!important
+    If this account is for a person who does not have any existing accounts with the EPCC TRE, you must raise a ticket with the service desk to create a [2FA account for them](https://docs.eidf.ac.uk/safe-haven-services/safe-haven-access/#safe-haven-login), providing their name and mobile phone number. If this account is for a person at an organisation which does not currently have access to the EPCC TRE, you must also raise a ticket with the service desk to discuss [network access controls](https://docs.eidf.ac.uk/safe-haven-services/network-access-controls/).
+
 ### <a id="resetpwd"></a> How can I reset the password for an account
 
 1. [Login to SAFE](#login)

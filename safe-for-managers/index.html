@@ -1,0 +1,1730 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../safe-for-users/">
+      
+      
+        <link rel="next" href="../safe-for-shs-rcs/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>SAFE for PIs and Project Managers - EPCC SAFE User Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/archer2.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="teal" data-md-color-primary="teal" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#safe-for-pis-and-project-managers" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="EPCC SAFE User Documentation" class="md-header__button md-logo" aria-label="EPCC SAFE User Documentation" data-md-component="logo">
+      
+  <img src="../images/safe-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            EPCC SAFE User Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              SAFE for PIs and Project Managers
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/EPCCed/safe-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    EPCCed/safe-docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="EPCC SAFE User Documentation" class="md-nav__button md-logo" aria-label="EPCC SAFE User Documentation" data-md-component="logo">
+      
+  <img src="../images/safe-logo.png" alt="logo">
+
+    </a>
+    EPCC SAFE User Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/EPCCed/safe-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    EPCCed/safe-docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Documentation overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../safe-for-users/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SAFE for users
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SAFE for PIs and Project Managers
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SAFE for PIs and Project Managers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting Started
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting Started">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-activate-your-new-allocation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to activate your new allocation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#your-allocation-has-been-set-up-as-a-project-on-the-service-your-first-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Your allocation has been set up as a project on the service. Your first steps.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-get-your-own-account-on-service-machines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to get your own account on service machines
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-check-project-alerts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to check project alerts
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-your-allocated-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Managing your allocated resources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Managing your allocated resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-period-allocation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is "period allocation"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-set-up-project-groups-within-my-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I set up project groups within my project?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-delete-a-project-group" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I delete a project group?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-administer-time-within-my-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I administer time within my project?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-move-time-between-budgets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I move time between budgets?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-allocate-time-to-a-single-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I allocate time to a single user?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-administer-disk-space" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I administer disk space?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-create-a-quota-for-a-project-group-or-move-space-between-quotas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I create a quota for a project group, or move space between quotas?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-set-a-quota-for-an-individual-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I set a quota for an individual user?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-project-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Managing Project Users
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Managing Project Users">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-can-project-users-get-registered" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can project users get registered?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How can project users get registered?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#invite-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Invite users
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-approve-user-sign-up-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to approve user sign up requests
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-designate-a-user-as-a-project-manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I designate a user as a project manager?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-designate-a-user-as-a-project-sub-group-manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I designate a user as a project sub-group manager?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-add-users-to-an-existing-project-group" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I add users to an existing project group?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-remove-a-user-or-users-from-my-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I remove a user (or users) from my project?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-send-a-mailing-to-all-users-in-my-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I send a mailing to all users in my project
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tracking-your-project-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tracking your Project Usage
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tracking your Project Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-check-the-current-state-of-your-projects-time-and-space" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to check the current state of your project's time and space
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-track-what-my-projects-users-and-project-groups-are-doing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to track what my project's users and project groups are doing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-request-automatic-project-reports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to request automatic project reports
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-check-how-much-space-my-projects-users-are-occupying" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to check how much space my project's users are occupying
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-request-more-resources-compute-time-and-file-system-space" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to request more resources (compute time and file system space)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../safe-for-shs-rcs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SAFE for EPCC SHS Research Coordinators
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technical Assessments for Project applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../training-registrations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Training Course Registrations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting Started
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting Started">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-activate-your-new-allocation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to activate your new allocation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#your-allocation-has-been-set-up-as-a-project-on-the-service-your-first-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Your allocation has been set up as a project on the service. Your first steps.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-get-your-own-account-on-service-machines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to get your own account on service machines
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-check-project-alerts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to check project alerts
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-your-allocated-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Managing your allocated resources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Managing your allocated resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-period-allocation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is "period allocation"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-set-up-project-groups-within-my-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I set up project groups within my project?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-delete-a-project-group" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I delete a project group?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-administer-time-within-my-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I administer time within my project?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-move-time-between-budgets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I move time between budgets?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-allocate-time-to-a-single-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I allocate time to a single user?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-administer-disk-space" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I administer disk space?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-create-a-quota-for-a-project-group-or-move-space-between-quotas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I create a quota for a project group, or move space between quotas?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-set-a-quota-for-an-individual-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I set a quota for an individual user?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-project-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Managing Project Users
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Managing Project Users">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-can-project-users-get-registered" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can project users get registered?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How can project users get registered?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#invite-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Invite users
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-approve-user-sign-up-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to approve user sign up requests
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-designate-a-user-as-a-project-manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I designate a user as a project manager?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-designate-a-user-as-a-project-sub-group-manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I designate a user as a project sub-group manager?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-add-users-to-an-existing-project-group" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I add users to an existing project group?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-remove-a-user-or-users-from-my-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I remove a user (or users) from my project?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-can-i-send-a-mailing-to-all-users-in-my-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How can I send a mailing to all users in my project
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tracking-your-project-usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tracking your Project Usage
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tracking your Project Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-check-the-current-state-of-your-projects-time-and-space" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to check the current state of your project's time and space
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-track-what-my-projects-users-and-project-groups-are-doing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to track what my project's users and project groups are doing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-request-automatic-project-reports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to request automatic project reports
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-check-how-much-space-my-projects-users-are-occupying" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to check how much space my project's users are occupying
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-request-more-resources-compute-time-and-file-system-space" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to request more resources (compute time and file system space)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="safe-for-pis-and-project-managers">SAFE for PIs and Project Managers</h1>
+<p>This section covers the use of SAFE to:</p>
+<ul>
+<li>Manage project users on different systems and services</li>
+<li>Manage project resources on different systems and services</li>
+</ul>
+<p>Principal Investigators (grant holders) can manage their allocations via SAFE.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+</div>
+<p>Not all management options are available for all systems. We try to note which
+   functionality is available for individual systems in the sections below. </p>
+<!--
+
+### [Getting started](#getting-started)
+
+
+- [How to activate your new allocation](#activate)
+- [Your allocation has been set up as a project on  the service. Your first steps.](#andnext)
+- [How to get your own account on the service machine](#selfac)
+- [How to check project alerts](#projalert)
+
+
+### [Managing your allocated resources](#managing-resources)
+
+<ul>
+    <li><a href="#period">What is "period allocation"?</a></li>
+    <li><a href="#projgrp">How to set up project groups within the project</a></li>
+    <li><a href="#projgrp">How to set up a guest budget</a></li>    
+    <li><a href="#delgrp">How to delete a project group</a></li>
+    <li><a href="#time">How can I administer time within my project?</a></li>
+    <li><a href="#mvtime">How to move time between budgets</a></li>
+    <li><a href="#oneuser">How to allocate time to individual user</a></li>
+    <li><a href="#space">How to administer disk space</a></li>
+    <li><a href="#mvspace">How to create a quota for a project group, or
+            move space between quotas</a></li>
+    <li><a href="#persquota">How to set a quota for an individual user</a></li>
+</ul>
+
+
+<h3>
+    <a href="#managing-users">Managing project users</a>
+</h3>
+<ul>
+    <li><a href="#regusers">How can project users get registered</a></li>
+    <li><a href="#approve">How to approve user sign up requests</a></li>
+    <li><a href="#signup">How to track user sign up requests</a></li>
+    <li><a href="#projman">How to designate a user as a project manager</a></li>
+    <li><a href="#groupman">How to designate a user as a project sub-group
+            manager</a></li>
+    <li><a href="#addu">How to add a user to a project group</a></li>
+    <li><a href="#remu">How to remove a user from a project group</a></li>
+
+    <li><a href="#remuser">How to remove a user (or users) from your
+            project</a></li>
+    <li><a href="#projmailing">How to send a mailing to all users in your
+            project</a></li>
+</ul>
+
+
+<h3>
+    <a href="#track-usage">Tracking your project usage</a>
+</h3>
+<ul>
+    <li><a href="#snap">How to check the current state of your project's
+            time and space</a></li>
+    <li><a href="#phist">How to track what my project's users and project
+            groups are doing?</a></li>
+    <li><a href="#udisk">How to check how much space my project's users are
+            occupying</a></li>
+    <li><a href="#autorep">How to request automatic project reports</a></li>
+    <li><a href="#more">How to request more resources (time and disk space)</a></li>
+</ul>
+
+
+<br />
+<hr />
+
+
+-->
+
+<h2 id="getting-started"><a name="getting-started"></a>Getting Started</h2>
+<h3 id="how-to-activate-your-new-allocation"><a name="activate"></a>How to activate your new allocation</h3>
+<p>After your application for access to a service has been approved by the relevant funding body,
+your new allocation will need to be activated. How this happens depends on the service you are
+accessing and the funding call that awarded the resource. Please refer to the specific call, funder
+and service documentation on how your allocation will be activated. </p>
+<p>If you have any questions about activating your allocation, please contact the relevant service 
+desk for the service you are using.</p>
+<h3 id="your-allocation-has-been-set-up-as-a-project-on-the-service-your-first-steps"><a id="andnext"></a>Your allocation has been set up as a project on the service. Your first steps.</h3>
+<p>Here are some of the things you should consider doing; not all of them will be needed for every project.</p>
+<ul>
+<li><a href="../safe-for-users#chpass">Change your own SAFE password</a></li>
+<li><a href="#selfac">Set up an account on service machines for yourself</a></li>
+<li><a href="#regusers">Make sure other project users get registered</a></li>
+<li><a href="#projman">Designate one or more users as managers of your project</a></li>
+<li><a href="#projgrp">Decide whether you need project groups within your project, in order to administer time and other resources</a></li>
+</ul>
+<h3 id="how-to-get-your-own-account-on-service-machines"><a id="selfac"></a>How to get your own account on service machines</h3>
+<p>If you are not going to work on the machine yourself, you do not need to do this. You can administer your
+project through SAFE alone. But if you want a service machine account follow
+<a href="../safe-for-users#getacc">the usual account setup process</a>.</p>
+<p>You will get an acknowledgement screen, from which you can return to your main page. 
+As a PI, your account request will be auto-approved.</p>
+<h3 id="how-to-check-project-alerts"><a id="projalert"></a>How to check project alerts</h3>
+<p><a href="../safe-for-users#login">Login to SAFE</a></a>. Then:</p>
+<ul>
+<li>Go to the Menu <em>Projects</em> and select the <em>project</em> you wish to check</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>if there are account approvals waiting, the project name will be highlighted in this list and clicking on the highlight will take you straight to that page.</p>
+</div>
+<ul>
+<li>This will display a page with a variety of options for managing your project.</li>
+<li>Project alerts and warning are highlighted in Amber and Red</li>
+<li>To request emails for alerts, or to change the frequency of the emails</li>
+<li>Click <em>Update</em></li>
+<li>Beside "Frequency of Alerts" select the required frequency</li>
+<li>If the emails should go to someone other than the PI, enter the email address(es) into the 'Recipients for alerts' box. If the PI still wishes to receive alerts their email must be included in this box.</li>
+<li>Click <em>Update</em> to save the changes.</li>
+</ul>
+<p>Do not forget the <em>Update</em> step, or nothing will happen.</p>
+<h2 id="managing-your-allocated-resources"><a id="managing-resources"></a> Managing your allocated resources</h2>
+<h3 id="what-is-period-allocation"><a id="period"></a> What is "period allocation"</h3>
+<p>A period allocation is an amount of compute time which has been allocated for a project to use within the specified time period. Period allocations are valid for a specific resource pool (machine) and have definitive start and end dates, which usually coincide with the dates of your grant or project award. When the end date of the period allocation passes, any leftover compute time will automatically expire.</p>
+<p>You can view and manage your period allocation via SAFE.</p>
+<p><a href="../safe-for-users#login">Login to SAFE</a>. Then:</p>
+<ul>
+<li>Go to the Menu <em>Projects</em> and select the <em>project</em> you wish to work with </li>
+<li>This will display a screen with a variety of options for managing the project.</li>
+<li>Scroll down to Time Budgets and Click on <em>Manage Group Time Allocations</em></li>
+<li>Click on the small arrow beside <em>How to Manage Your Budgets</em> for detailed instructions.</li>
+</ul>
+<p>You will then see the details of your current live allocation.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Please check the dates by <em>Allocation Period</em> to make sure you are looking at the correct one.</p>
+<p>You can skip between the period allocations by clicking on the "Next period&gt;&gt;&gt;"  and "&lt;&lt;&lt; Previous period"  buttons at the bottom of the page.</p>
+</div>
+<ol>
+<li><strong>Resource Pool (machine)</strong></li>
+<li><strong>Allocation</strong></li>
+<li><strong>Dates</strong> It is possible to have multiple successive period allocations, but they can never overlap if they are for the same resource pool. Before carrying out any project management tasks please check the dates and make sure you are managing the correct allocation.
+You can skip between the period allocations by clicking on the "Next period&gt;&gt;&gt;" and "&lt;&lt;&lt; Previous period"  buttons at the bottom of the page.</li>
+</ol>
+<p>You can manage the allocation by <a href="#projgrp">setting up project groups</a> and <a href="&quot;#mvtime">allocating compute time to project groups</a> if the project group functionality is available on the machine you have the allocation on.
+Project management tasks for the period allocation can be carried out at any time, but the allocation will be active, i.e. usable, only between the specified dates. Thus, you can set up project groups in advance.</p>
+<h3 id="how-can-i-set-up-project-groups-within-my-project"><a id="projgrp"></a> How can I set up project groups within my project?</h3>
+<p>Project groups can be used to administer time and other resources within your project. There is always one group which contains all project members but you can create additional groups if you wish and the functionality is supported on the machine you are using.</p>
+<p>The following machines currently support the use of project groups:
+- ARCHER2
+- Cirrus
+- DiRAC Extreme Scaling (Tursa)</p>
+<p><a href="../safe-for-users#login">Login to SAFE</a> Then:</p>
+<ol>
+<li>
+<p>Go to the Menu <em>Projects</em> and select the <em>project</em> you wish to create the group</p>
+</li>
+<li>
+<p>This will display a screen with a variety of options for managing the project.</p>
+</li>
+<li>Click the small arrow beside <em>Project Groups</em> to expand this section</li>
+<li>Click on the first entry (which will match the project ID)</li>
+<li>Click <em>Add new sub-group</em> at the bottom of the section</li>
+<li>This will take you to the screen for creating new project groups.</li>
+</ol>
+<p>Fill in a suffix to your project code in the box: for example, if your project code is t01, you might chose t01-a. Project group names cannot
+be more than eight characters in total.</p>
+<ol>
+<li>
+<p><a id="guestbudget"></a>If this group is to be used for <strong>guest budget</strong> users, tick "Guest Budget"</br>      <br />
+A <em>guest budget</em> is a budget in one project which is set up to permit access requests from users in a different project.</li></p>
+</li>
+<li>
+<p>Click <em>Create</em></p>
+</li>
+</ol>
+<h3 id="how-can-i-delete-a-project-group"><a id="delgrp"></a>How can I delete a project group?</h3>
+<p>You can only delete a project group if it has no resources or members.
+You must remove all its <a href="#remu">members</a> and all its <a href="#mvtime">time</a>. Also, if it has <a href="#space">disk quotas
+set</a>, it cannot be deleted; they will have to be removed first.</p>
+<p>Then:</p>
+<ol>
+<li>Go to the Menu <em>Projects</em> and select the <em>project</em> you wish to delete the sub-group from.    </li>
+<li>Scroll down to project groups and click on the small arrow beside Project Groups to expand and display all the groups in the project.</li>
+<li>Select the project sub-group you want to delete.</li>
+<li>Scroll to the bottom of the page and click <em>Delete</em>. This will ask for  confirmation that you wish to delete the sub-group. Click <em>Yes</em>.</li>
+</ol>
+<p>Deleting a group involves removing its various directories - depending on how much data is in the directories, this may take some time.</p>
+<h3 id="how-can-i-administer-time-within-my-project"><a id="time"></a>How can I administer time within my project?</h3>
+<p>Compute Time is held in <em>budgets</em>. Every project group has its own budget. There are always at least two project groups in your project:</p>
+<ul>
+<li>
+<p>The <em>general group</em>, which has the same code as the project itself. Every member of the project is a member of this group, so the time in its budget is available to them all.</p>
+</li>
+<li>
+<p>The <em>reserve</em> project group, which has a name of form <em>t01-reserve</em>.
+It has no members, so no one can use the time in its budget. This budget can be used to hold time which the PI or project manager wishes to hold in reserve for later use.</p>
+</li>
+</ul>
+<p>Initially, all your time is in the general group's budget. If you are  happy with all your users using the same budget, you can leave things as they are.</p>
+<p>If you wish to divide the time up between groups, you can <a href="#projgrp">create a project group</a> for each group. In this case you will probably want to move all the time out the general group, since this can be used by everyone. </p>
+<p>You may wish to <a href="#oneuser">give time just to a single user</a>.
+This is a special case of a project group: one with only one member.</p>
+<p>The reserve budget is provided so that if you wish you can control
+the use of time by your project members: you can keep most of the time
+in your reserve budget, and move it to the other budgets as required.
+We recommend that you should do this, even if you don't need to create
+other project groups.</p>
+<h3 id="how-can-i-move-time-between-budgets"><a id="mvtime"></a> How can I move time between budgets?</h3>
+<p><a href="../safe-for-users#login">Login to SAFE</a>, and then:</p>
+<ol>
+<li>
+<p>Go to the Menu <em>Projects</em> and select the <em>project</em> you wish to work with. This displays a panel with information for the project.</p>
+</li>
+<li>
+<p>Scroll down to <em>Time Budgets</em></p>
+</li>
+<li>Click <em>Manage Group Time Allocations</em></li>
+<li>Click the small arrow beside "How to Manage your Budgets" to expand the instructions.</li>
+<li>Click the <em>Move From</em> and <em>Move To</em> buttons of the project groups you want to change</li>
+<li>Enter the amount of compute time you wish to move in the box</li>
+<li>Click the <em>Move</em> button</li>
+<li>Click the <em>Submit Budget Allocation Changes</em> button.</li>
+</ol>
+<p>Do not forget the Submit step, or nothing will happen.</p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>If you need to make a large number of simultaneous changes the <em>MultiMove</em> button will open a different form that allows you to specify the amount you want each budget to change.</p>
+</div>
+<h3 id="how-can-i-allocate-time-to-a-single-user"><a id="oneuser"></a> How can I allocate time to a single user?</h3>
+<p>As all the time in a project group is shared by all its members, the only way to reserve some time for a single user is to create a project group for that user alone.</p>
+<ol>
+<li><a href="#projgrp">Create a new project group</a> for the user. For example, if we are in project <em>t01</em> and the user is <em>fred</em>, you might call the new project group <em>t01-fred</em></li>
+<li><a href="#addu">Add the user to the new project group</a></li>
+<li><a href="#mvtime">Move the time</a> you wish the user to have into the new project group</li>
+</ol>
+<p>Remember that time in the general group's budget is accessible to all, so you will probably want to move all of the project's time away from there.</p>
+<h3 id="how-can-i-administer-disk-space"><a id="space"></a> How can I administer disk space?</h3>
+<p>Start by reading the discussion of the <a href="#time">administration of time</a>, as the administration of disk space is related to this, and is also done using project groups. The two project groups which exist in each project can also be used for administering space.</p>
+<ul>
+<li>The <em>general group</em>, which has the same code as the project itself, includes every member of the project. The disk quotas of this project group can therefore be used by them all.</li>
+<li>The <em>reserve</em> project group, which has a name of form <em>t01-reserve</em>, has no members, so no one can use the disk space which is in its quotas. You can use these quotas to hold space which you want to hold in reserve for later.</li>
+</ul>
+<p>Different file systems are administered separately. A project may have access to multiple file systems on multiple different service machines. Within the disk space allocated on a particular file system every portion of space must belong to one or other of the project group quotas. Thus, to start with, all the quota allocated to a project on a file system is either in the general quota or the reserve quota for that file system.
+Space never belongs to more than one group quota. [The reserve quota is not a real quota, in fact. It has no existence on the service machine - just in the database.]</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You cannot move disk space on one file system to another file system - you can only allocate file space on a file system to group quotas on te same file system.</p>
+</div>
+<p>Beyond the general and reserve quotas, you can also have quotas for the project groups which you create. But this is not compulsory. If you qre thinking about using project group quotas, you need to be aware that they are implemented using Unix groups, which are only just adequate for the task.</p>
+<p>Let us use an ARCHER2 work file system as an example (<code>a2fs-work1</code>, your project may have access to a different file system). Suppose you are project <em>t01</em>. To start with, one Unix group will be assigned to this project. The directories for all users will be in directory <code>/work/t01/t01/</code> &mdash; this is where the general group is held. User <em>john</em>, for example, will have directory <code>/work/t01/t01/john/</code> as his work directory. Any file created in any of the directories under <code>/work/t01/t01/</code> will belong to the Unix group for project <em>t01</em>.</p>
+<p>If you create a project group <em>t01-a</em> with no quota on ARCHER2 work, this will not change. On the "Group quotas" SAFE page you will see the new project group and under "Usage" and "Quota" you will see "Locked" &mdash; as the group has no quota, it cannot be populated. But the moment you give a quota to this project group on ARCHER2 work, a Unix group will be assigned to it and a directory will be created for it: <code>/work/t01/t01-a/</code>
+If user <em>john</em> is a member of this project group, he will have a directory <code>/work/t01/t01-a/john/</code>.  Any files he creates under that directory will belong to <em>t01-a</em> and will be counted against its quota.</p>
+<p>Of course, <em>john</em> is still a member of the general project group, so he can still create files there. If he belongs to other project groups which have quotas, he will have directories for these as well. He can only create files in the project groups he is a member of, since he cannot access the directories of the other groups. It is up to him to make sure that he creates his files in the right places, so that they get charged to the right project groups.</p>
+<!--
+<p>That's the theory, but unfortunately there are ways for users to get round this system (by mistake and on purpose), and there's nothing we can do about this, apart from changing the group IDs of files when we notice it happening.  We are at the limit of what the operating
+system's technology can do.</p>
+-->
+
+<p>You should also note that once you have instituted project group quotas, there is no easy way back. Removing them and reassigning all the files to other groups is a complex job and will require special arrangement with the service team &mdash; send a request to the appropriate Service Desk.</p>
+<p>Most projects, in fact, use their project groups only for administering time, and allow their users to have access to all their space. You could, if you wish, make use of <a href="#persquota">user quotas</a> (if they are supported on the file system you have access to) to stop individual users from taking too much space.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The above points do not apply to the reserve quotas, since they do not exist on the service machine. They are just a book-keeping fiction, and using them is cost free. We recommend this to any project which is concerned about running out of space.</p>
+</div>
+<h3 id="how-can-i-create-a-quota-for-a-project-group-or-move-space-between-quotas"><a id="mvspace"></a> How can I create a quota for a project group, or move space between quotas?</h3>
+<p>First, read the <a href="#space">discussion of space administration</a>. 
+If you are still determined to use project group quotas, this is how.</p>
+<p><a href="../safe-for-users#login">Login to SAFE</a> Then:</p>
+<ol>
+<li>Go to the Menu <em>Projects</em> and select the <em>project</em> you wish to work on. This will display a panel with the project information.</li>
+<li>Scroll down and click the small arrow beside "Disk Quotas" to expand the section. </li>
+<li>In the <em>Group Quotas</em> section, click on button beside the File System you wish to work on.   </li>
+<li>You will now see a list of your project groups, including the general and reserve groups. Project groups which have no quota will show the note <em>No quota set</em></li>
+<li>Click the small arrow beside "Instructions..." to display detailed instructions.</li>
+<li>Click the <em>Move From</em> and <em>Move To</em> buttons of the groups you want to change</li>
+<li>Fill in the number of Gb to move in the box</li>
+<li>Click <em>Move</em></li>
+<li>Repeat until you have entered all the moves you wish to make</li>
+<li>Click <em>Submit</em> and the move instructions will then be carried out.</li>
+</ol>
+<p>Do not forget the final Submit step, or nothing will happen. The act of moving quota space to a project group which has no quota set converts that project group to one with a group quota, administered by a Unix group, as discussed <a href="#space">earlier</a>.</p>
+<p>Quota changes are actually carried out by a human being. Once this has been done, you will receive an email informing you. If you ask for the quota to be reduced below the current size of the files in the project group, the human will reject your request, and you will get an email saying this.</p>
+<h3 id="how-can-i-set-a-quota-for-an-individual-user"><a id="persquota"></a>How can I set a quota for an individual user?</h3>
+<p>User quota control is not available on all machines. Current machines that support this are:</p>
+<ul>
+<li>ARCHER2</li>
+<li>Cirrus</li>
+<li>DiRAC Extreme Scaling (Tursa)</li>
+</ul>
+<p>User disk quotas are completely separate from project group quotas. A user quota simply places a limit on the amount of space which a particular user can occupy in workspace or homespace. There's nothing to stop you setting user quotas which add up to more (or less) than the total space. To set a quota for a user or users:</p>
+<p><a href="../safe-for-users#login">Login to SAFE</a> Then:</p>
+<ol>
+<li>Go to the Menu <em>Projects managed</em> and select the <em>project</em> you wish to work on. This will display a panel with the project information.</li>
+<li>Scroll down to <em>Disk Quotas</em></li>
+<li>In the <em>User Quotas</em> section, click <em>Home</em> or <em>Work</em></li>
+<li>You will see a list of users. Enter a value for each of the users whose quota you wish to change</li>
+<li>Click <em>Submit Changes</em></li>
+</ol>
+<p>Once again, these quota changes are carried out by a human. Once they have finished, you will receive an email.</p>
+<p>As with group quotas on the work file-system you can only be absolutely sure of writing data when you are more than 7Gb below your quota limit.</p>
+<h2 id="managing-project-users"><a id="managing-users"></a> Managing Project Users</h2>
+<h3 id="how-can-project-users-get-registered"><a id="regusers"></a> How can project users get registered?</h3>
+<p>You must not apply for machine accounts on behalf of other users, or let others use accounts that belong to you. Account sharing is strictly forbidden.</p>
+<p>Every user must <a href="../safe-for-users#register">register on SAFE</a> and then <a href="../safe-for-users#getac">apply for their own machine account</a>.</p>
+<p>In order to request an account, a potential user just needs to know the project machine and code.</p>
+<ol>
+<li>Give the users the project code and any advice on what username they should request in your project if you wish.</li>
+<li>Every user should then <a href="../safe-for-users#register">register on SAFE</a> and then <a href="../safe-for-users#getac">apply for their own machine account</a></li>
+</ol>
+<p>or you can send an Invite to a new user:</p>
+<h4 id="invite-users"><a id=j"inviteusers"></a> Invite users</h4>
+<p>The normal procedure for generating a machine account is for the account owner to apply for an account and have it approved by a project manager, as described above.</p>
+<p>It is also possible for project managers to pre-approve an account and send an invitation to the potential project member.</p>
+<p>To do this the project manager uses the <em>Invite member</em> button from the project administration page. The project manager must provide an Email address for the prospective project member together with the machine the account is for, a suggested username for the account and a text message to send with the invite. 
+This will send an email to the provided address with a link. If the recipient wants to accept the account they need to log into the safe (creating a SAFE account if they do not already have one) and click on the link in the email.</p>
+<p>After sending the invitation the SAFE will offer an opportunity add the new account to additional project groups.</p>
+<p>The account is not actually created until the account owner accepts the account so they will be able to change the suggested username if they wish.</p>
+<h3 id="how-to-approve-user-sign-up-requests"><a id="approve"></a> How to approve user sign up requests</h3>
+<p>If you notice that the Menu <em>Projects managed</em> is highlighted, then this indicates that there is a request for project membership awaiting approval. </p>
+<p>You can also set up to <a href="#projalert">receive email alerts</a> whenever a signup request is waiting.</p>
+<p>You have to accept (or reject) each user's request.</p>
+<p><a href="../safe-for-users#login">Login to SAFE</a> Then:</p>
+<ol>
+<li>Go to the Menu <em>Projects</em> and click on the highlighted project and you will see the details of the user who has applied. </li>
+<li>Click on the Full name (with email) link to see full details of the person requesting the account.</li>
+<li>Click on the User name link to see details of the requested account.</li>
+<li>Click the "Accept/Reject" button next to the user to see basic details about the person, including their Nationality, Institution and Department</li>
+<li>Click on either the "Reject" or "Approve" button to reject or accept them.</li>
+</ol>
+<p>If you now accept the user, they will get an account. This is the last chance to stop someone who should not be there! Take a few seconds to check the user's details, especially their email address, to make sure that they are who they say they are. Please check their nationality as well: it's your responsibility to make sure this is right.</p>
+<p>When you accept a user, the systems team is automatically requested to create the account on the service machine. When this has been done, the user is emailed; allow a working day for this. The user can then login to SAFE and <a href="../safe-for-users#getpass">pick up their password on the service machine</a>.</p>
+<p>When you click Accept you will then be taken to a list of all the <a href="#projgrp">Project Groups</a> in your project, so you can easily add the new user to the group(s) they will be using. Simply tick the box against any groups they should be a member of, and then click "OK".</p>
+<h3 id="how-can-i-designate-a-user-as-a-project-manager"><a id="projman"></a> How can I designate a user as a project manager?</h3>
+<p>A project manager can do everything in a project that a PI can do, except designate another project manager. You can designate as many project managers as you wish.</p>
+<ol>
+<li>Make sure the user has an account in your project.</li>
+<li><a href="../safe-for-users#login">Login to SAFE</a></li>
+<li>Go to the Menu <em>Projects</em> and select the <em>project</em> you wish to appoint a project manager for. This will display a screen with a variety of options for managing the project.</li>
+<li>Scroll down to "Manage members"</li>
+<li>Click <em>Add project manager</em></li>
+<li>A drop down list will be displayed which contains all the users within the project. Select the user you wish to make a manager and click <em>Add</em></li>
+</ol>
+<p>If you later wish to remove a project manager, click <em>Remove project manager</em>, select the <em>project manager</em> and then click <em>Remove</em>.</p>
+<p>You may want to enable a project user to perform some, but not all, of the project manager roles.</p>
+<p>The options available are</p>
+<ul>
+<li>Approve Users</li>
+<li>Make Sub Groups</li>
+<li>Move Budget</li>
+<li>Move Group Quota</li>
+</ul>
+<p>You can enable these using the "Set member permissions" button</p>
+<h3 id="how-can-i-designate-a-user-as-a-project-sub-group-manager"><a id="groupman"></a> How can I designate a user as a project sub-group manager?</h3>
+<p>A project sub-group manager can only move time and disk quota between the groups they manage. They can also create new sub-groups underneath these groups. (If you manage a parent group you automatically manage all its children). Sub-group managers can also accept new people into the project and run reports on the project.</p>
+<ol>
+<li>Make sure the user has an account in your project.</li>
+<li><a href="../safe-for-users#login">Login to SAFE</a>.</li>
+<li>Go to the Menu <em>Projects</em> and select the <em>project</em> you wish to appoint a project sub-group manager for. </li>
+<li>Scroll down to project groups and click on the small arrow beside <em>Project Groups</em> to expand and display all the groups in the project.</li>
+<li>Select the project-subgroup that you wish to assign a sub-group manager for.         </li>
+<li>Scroll to the bottom of the page and Click on <em>Add Manager</em>.</li>
+<li>You will now have a drop down list of all the users who are sub-group members but not currently managers. Select the new manager from this list and click <em>Add</em> and then confirm the change.</li>
+</ol>
+<p>To add users to the new project group, see the next question. A user can belong to more than one project group.</p>
+<h3 id="how-can-i-add-users-to-an-existing-project-group"><a id="addu"></a> How can I add users to an existing project group?</h3>
+<p><a href="../safe-for-users#login">Login to SAFE</a>. Then:</p>
+<ol>
+<li>Go to the Menu <em>Projects</em> and select the <em>project</em> you wish to are work on. </li>
+<li>Scroll down to project groups and click on the small arrow beside <em>Project Groups</em> to expand and display all the groups in the project.</li>
+<li>Select the project-subgroup that you wish add or remove users to or from. </li>
+</ol>
+<p>There are 3 possible operations</p>
+<ul>
+<li><em>Add/Remove members</em>  lists all members of the project allowing you to add and remove accounts from the project group in a single operation. </li>
+</ul>
+<p>However for a very large project this can become unwieldy so separate add/remove operations are also available.</p>
+<ul>
+<li>
+<p><em>Add accounts</em> only lists accounts that can be added to the group allowing multiple accounts to be added.</p>
+</li>
+<li>
+<p><em>Remove accounts</em> only lists accounts already belonging to the project allowing multiple accounts to be removed.</p>
+</li>
+</ul>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>There is also the option to add/remove groups to a user account. This can be found on the individual user account pages linked from the Usernames in the <em>Project accounts</em> page. This route is most useful if you want to add or remove a single account to/from multiple groups.</p>
+</div>
+<p>To see which members have access to the project group, select <em>project sub-group</em> and click <em>List Members.</em></p>
+<p>If the project group is using <a href="#space">disk quotas</a>, this operation is carried out by a human, so there may be a short delay. 
+Otherwise, it happens at once.</p>
+<p>A user can belong to more than one project group.</p>
+<h3 id="how-can-i-remove-a-user-or-users-from-my-project"><a id="remuser"></a> How can I remove a user (or users) from my project?</h3>
+<p>Please check the policy on on end of life procedures for user accounts on the system you are using.</p>
+<p>If you wish to remove a user from your project, you can email the appropriate Service Desk for the system giving the username of the user to be deleted.
+Service desk staff will arrange for the account to be deleted, in line with the policy.  </p>
+<p>You can remove an account from your project in SAFE by selecting the project from your Projects list and then under "Manage members" choose "Remove account".  <b>Removing an account also immediately removes all associated data permanently</b>, so must be done with great caution. </p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>When you remove a user from the project or from a project group, this removal will not be processed on the machine while the user still has jobs in the queue (pending or running).  Once they no longer have work in the queue, the removal will be processed.<br>     In the event that you wish to prevent the user from running jobs immediately, please contact the service desk who can arrange for queued and running jobs to be removed from the queue. </p>
+</div>
+<h3 id="how-can-i-send-a-mailing-to-all-users-in-my-project"><a id="projmailing"></a> How can I send a mailing to all users in my project</h3>
+<p><a href="../safe-for-users#login">Login to SAFE</a> Then:</p>
+<ol>
+<li>Go to the Menu <em>Projects</em> and select the <em>project</em> you wish to work on. This will display a screen with a variety of options for managing the project.</li>
+<li>Scroll down to <em>Project mailings</em> click on <em>View</em></li>
+<li>You will see a list of all of the previous project mailings, and the option to compose a new one.</li>
+<li>Select <em>Compose</em></li>
+<li>To change the mailing or content, you can use the <em>Edit Subject</em> and <em>Edit</em> buttons. Once you have changed the text select <em>Update</em>.</li>
+<li>To send the mail click <em>Send</em>. There is an option to <em>Start Over</em> - this will wipe the content of the email. The <em>Abort</em> option will take you out of the mailing page completely.</li>
+</ol>
+<h2 id="tracking-your-project-usage"><a id="track-usage"></a> Tracking your Project Usage</h2>
+<h3 id="how-to-check-the-current-state-of-your-projects-time-and-space"><a id="snap"></a> How to check the current state of your project's time and space</h3>
+<p><a href="../safe-for-users#login">Login to SAFE</a> Then:</p>
+<ol>
+<li>Go to the Menu <em>Projects</em> and select the <em>project</em> you wish to work on.</li>
+<li>Under <em>Project groups</em> you can see the current state of each project group's budgets. If it uses disk quotas, you will see these, together with how much of is in use.</li>
+</ol>
+<p>If a project group's use of a quota is getting close to the maximum, it is highlighted.</p></p>
+<p>The budget values displayed are updated every morning, and the values shown for disk use are updated four times a day. For this reason, these values may not all be completely up-to-date. If there is a lot of activity in your project, the numbers shown could be significantly different from the current ones.</p>
+<h3 id="how-to-track-what-my-projects-users-and-project-groups-are-doing"><a id="phist"></a> How to track what my project's users and project groups are doing</h3>
+<p>This can be done using the Report Generator</p>
+<p><a href="../safe-for-users#login">Login to SAFE</a> Then:</p>
+<ol>
+<li>Go to the Menu <em>Service information</em> and select <em>Reports</em></li>
+<li>Choose the "Project Report" report</li>
+<li>Select the start and end dates of the period you are interested in</li>
+<li>Click the button to select a report format: Preview, HTML, PDF or CSV (comma-separated values &mdash; good for input to Excel, <em>etc.</em>)</li>
+<li>If you initially selected Preview and would now like this report in one of the other formats, you can now click the format you wish and the same report parameters will be used to generate the report.</li>
+</ol>
+<h3 id="how-to-request-automatic-project-reports"><a id="autorep"></a> How to request automatic project reports</h3>
+<p><a href="../safe-for-users#login">Login to SAFE</a> Then:</p>
+<ol>
+<li>Go to the Menu <em>Projects</em> and select the <em>project</em> you wish to work on. This will display a screen with a variety of options for managing the project.</li>
+<li>Click on <em>Update</em></li>
+<li>Enter the email addresses which the reports should be sent to in <em>Recipients for automatic reports.</em></li>
+<li>Set the <em>Frequency of Automatic Reports</em> to the preferred frequency.</li>
+<li>Click <em>Update</em> to confirm the changes.</li>
+</ol>
+<h3 id="how-to-check-how-much-space-my-projects-users-are-occupying"><a id="udisk"></a> How to check how much space my project's users are occupying</h3>
+<p>Use the Reports menu item  (see the <a href="#phist">earlier question</a>), and select the "Project Disk Use" report. The Report Generator displays the history of disk use &mdash; to see the current use, make sure that the reporting period includes the present moment. The disk usage values known to the database are updated four times a day, so if there is a lot of activity in your project, the numbers shown could be significantly different from the current ones.</p>
+<p>There is an unresolvable problem with this: if a user has an account which belongs to more than one project, the disk usage shown for that account will be the total that the account is using in all those projects combined.</p>
+<h3 id="how-to-request-more-resources-compute-time-and-file-system-space"><a id="more"></a> How to request more resources (compute time and file system space)</h3>
+<p>If you need more file system space, contact the appropriate Service Desk.</p>
+<p>If you need extra time, you should contact the funder for your project. The Service Desk cannot allocate time without authorisation from them.</p></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/EPCCed" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/EPCCed" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["tabs"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

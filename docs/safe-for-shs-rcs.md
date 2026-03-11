@@ -15,7 +15,7 @@ This section covers the use of SAFE to:
 
 You will have been provided with a service desk email address.
 Authorised users can send emails to this address and receive updates via email.
-However, users may also wish to [register for an account](safe-for-users#register) on the EPCC SAFE, which will then allow them to [view all their support requests](safe-for-users#checkq) and submit new ones.
+However, users may also wish to [register for an account](../safe-for-users#register) on the EPCC SAFE, which will then allow them to [view all their support requests](../safe-for-users#checkq) and submit new ones.
 
 ### Viewing queries raised by other users
 
@@ -24,7 +24,7 @@ Safe Havens which have multiple research coordinators may wish to have their que
 This can be enabled on request.
 Any authorised user who needs access to view other queries on that service desk should:
 
-1. [Register for an account](safe-for-users#register) on the EPCC SAFE
+1. [Register for an account](../safe-for-users#register) on the EPCC SAFE
 1. Submit a query to their service desk asking to be given permission to view all queries on that service desk.
 
 ### Saved queries
@@ -33,7 +33,7 @@ It can be helpful for research coordinators to save common queries, such as all 
 
 First, you must enable the ability to save searches:
 
-1. [Login to SAFE](safe-for-users#login)
+1. [Login to SAFE](../safe-for-users#login)
 1. Go to the Menu *Your details* click *Preferences*
 1. Click on the preference *Use the simple search interface*, then click *SET_PREFERENCE* and change the setting to *Off* and click *Update*
 1. Repeat to set the preference *Use the incremental search builder for query searches* to *On*
@@ -41,7 +41,7 @@ First, you must enable the ability to save searches:
 Next, carry out a search that you wish to save.
 For example, to save a search for all open tickets on your service desk:
 
-1. [Login to SAFE](safe-for-users#login)
+1. [Login to SAFE](../safe-for-users#login)
 1. Go to the Menu *Help and support* click *Search query*
 1. Click *Add Field...*, select *Service-desk handling Query* and click *Add*
 1. In the field labelled *Service-desk handling Query* select the name of your service desk
@@ -71,7 +71,7 @@ After your Safe Haven has been enabled for use with the EPCC SHS SAFE instance, 
 This access to the EPCC SHS SAFE is currently only available from within EPCC SHS itself.
 You should access your Safe Haven using your [usual service URL](https://docs.eidf.ac.uk/safe-haven-services/safe-haven-access/) and a [Remote Desktop Session](https://docs.eidf.ac.uk/safe-haven-services/virtual-desktop-connections/#connecting-to-a-remote-desktop-session).
 From within the remote desktop session, you can open a browser and enter the address for the EPCC SHS SAFE.
-Each research coordinator will be provided with a username and initial password to use to [login to SAFE](safe-for-users#login).
+Each research coordinator will be provided with a username and initial password to use to [login to SAFE](../safe-for-users#login).
 
 If you have any questions about access, please contact your relevant service desk.
 
@@ -79,8 +79,8 @@ If you have any questions about access, please contact your relevant service des
 
 Here are some of the things you should consider doing (you will be required to do some of them on first login):
 
-- [Change your own SAFE password](safe-for-users#chpass)
-- [Turn on MFA (multi-factor authentication)](safe-for-users#2fac)
+- [Change your own SAFE password](../safe-for-users#chpass)
+- [Turn on MFA (multi-factor authentication)](../safe-for-users#2fac)
 - [List your own accounts](#selflist)
 - [List the groups within your project](#listgroups)
 - [List the users within your project and their access](#listusers)

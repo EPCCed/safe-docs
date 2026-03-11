@@ -1,5 +1,58 @@
 # SAFE for EPCC SHS Research Coordinators
 
+There are currently two instances of SAFE involved in the management of Safe Havens within EPCC SHS:
+
+- [EPCC SAFE](#epcc-safe), for the management of helpdesk queries, available to all Safe Havens
+- [EPCC SHS SAFE](#epcc-shs-safe), for the management of research studies and users, currently available to selected Safe Havens
+
+## EPCC SAFE
+
+This section covers the use of SAFE to:
+
+  - View current and resolved queries related to your Safe Haven
+
+### Getting Started
+
+You will have been provided with a service desk email address.
+Authorised users can send emails to this address and receive updates via email.
+However, users may also wish to [register for an account](safe-for-users#register) on the EPCC SAFE, which will then allow them to [view all their support requests](safe-for-users#checkq) and submit new ones.
+
+### Viewing queries raised by other users
+
+By default, users may only view queries which they themselves raised.
+Safe Havens which have multiple research coordinators may wish to have their queries viewable by any research coordinator, regardless of who originally raised them.
+This can be enabled on request.
+Any authorised user who needs access to view other queries on that service desk should:
+
+1. [Register for an account](safe-for-users#register) on the EPCC SAFE
+1. Submit a query to their service desk asking to be given permission to view all queries on that service desk.
+
+### Saved queries
+
+It can be helpful for research coordinators to save common queries, such as all open tickets on their service desk.
+
+First, you must enable the ability to save searches:
+
+1. [Login to SAFE](safe-for-users#login)
+1. Go to the Menu *Your details* click *Preferences*
+1. Click on the preference *Use the simple search interface*, then click *SET_PREFERENCE* and change the setting to *Off* and click *Update*
+1. Repeat to set the preference *Use the incremental search builder for query searches* to *On*
+
+Next, carry out a search that you wish to save.
+For example, to save a search for all open tickets on your service desk:
+
+1. [Login to SAFE](safe-for-users#login)
+1. Go to the Menu *Help and support* click *Search query*
+1. Click *Add Field...*, select *Service-desk handling Query* and click *Add*
+1. In the field labelled *Service-desk handling Query* select the name of your service desk
+1. Click *Add Field...*, select *Filter class* and click *Add*
+1. In the field labelled *Filter class* select *Current queue*
+1. Click *Search* and review the results
+1. Click *Save*, enter a name and click *Save* again
+1. Your saved search will then appear in the menu *Help and support* when you hover over *Search query*
+
+## EPCC SHS SAFE
+
 This section covers the use of SAFE within EPCC SHS to:
 
   - Manage research studies within your Safe Haven
@@ -10,9 +63,9 @@ This section covers the use of SAFE within EPCC SHS to:
     In particular, SAFE, and the rest of this document, uses the term *Project* to represent a Safe Haven, *Group* (or *sub-group*) to represent a research study, and *Machine* to represent resources within your Safe Haven or that it has access to, most commonly one Remote Desktop Gateway (VDI) and one set of desktop VMs.
     Additionally, much functionality listed elsewhere on this documentation site may be currently disabled (or not relevant) within the EPCC SHS SAFE.
 
-## <a name="getting-started"></a>Getting Started
+### <a name="getting-started"></a>Getting Started
 
-### <a name="login"></a>How to access the EPCC SHS SAFE
+#### <a name="login"></a>How to access the EPCC SHS SAFE
 
 After your Safe Haven has been enabled for use with the EPCC SHS SAFE instance, you will be provided with the address to access the service.
 This access to the EPCC SHS SAFE is currently only available from within EPCC SHS itself.
@@ -22,7 +75,7 @@ Each research coordinator will be provided with a username and initial password 
 
 If you have any questions about access, please contact your relevant service desk.
 
-### <a id="andnext"></a>Your first steps.
+#### <a id="andnext"></a>Your first steps.
 
 Here are some of the things you should consider doing (you will be required to do some of them on first login):
 
@@ -32,7 +85,7 @@ Here are some of the things you should consider doing (you will be required to d
 - [List the groups within your project](#listgroups)
 - [List the users within your project and their access](#listusers)
 
-### <a id="selflist"></a>How to list your own accounts
+#### <a id="selflist"></a>How to list your own accounts
 
 1. [Login to SAFE](#login)
 2. Click on the Menu *Login accounts*
@@ -41,7 +94,7 @@ You will be shown a list of all your login accounts.
 For each research study to which you have direct access, as well as for your research coordinator account, you will usually see two accounts.
 These accounts will have the same username but will be on different machines - one for the VDI machine and one for desktop VMs.
 
-### <a id="listgroups"></a>How to list the groups within your project
+#### <a id="listgroups"></a>How to list the groups within your project
 
 1. [Login to SAFE](#login)
 2. Go to the Menu *Projects* and select the project you wish to view
@@ -51,7 +104,7 @@ These accounts will have the same username but will be on different machines - o
 You will be shown a list of all your project groups.
 There is always one group which contains all project members, and which has the same name as the project, but additional sub-groups represent each research study.
 
-### <a id="listusers"></a>How to list the users within your project and their access
+#### <a id="listusers"></a>How to list the users within your project and their access
 
 1. [Login to SAFE](#login)
 2. Go to the Menu *Projects* and select the project you wish to view
@@ -66,9 +119,9 @@ This will not tell you which machines or groups they have access to (and may inc
 
 You can also view just the accounts in a specific group by selecting the group from the [list of groups](#listgroups) and clicking on *List Members*.
 
-## <a id="managing-groups"></a> Managing Project Groups
+### <a id="managing-groups"></a> Managing Project Groups
 
-### <a id="projgrp"></a> How can I set up project groups within my project?
+#### <a id="projgrp"></a> How can I set up project groups within my project?
 
 1. [Login to SAFE](#login)
 1. Go to the Menu *Projects* and select the project you wish to view
@@ -89,9 +142,9 @@ Currently, after creating a new group, you **must** contact your service desk to
     These requests are not instant, and you will have to wait until they are completed, which is variable depending on the type of request and other activity.
     However, they should usually be completed within the order of minutes, and so you should contact your service desk if a request has not completed in the expected time.
 
-## <a id="managing-users"></a> Managing Project Users
+### <a id="managing-users"></a> Managing Project Users
 
-### <a id="regusers"></a> How can project users get registered?
+#### <a id="regusers"></a> How can project users get registered?
 
 !!!important
     You should not add users to a newly-created group until you have confirmed with the service desk that the group has been allocated to a VM.
@@ -127,7 +180,7 @@ Note that this screen is only ever intended to show you the initial password - w
 !!!important
     If this account is for a person who does not have any existing accounts with EPCC SHS, you must raise a ticket with the service desk to create a [2FA account for them](https://docs.eidf.ac.uk/safe-haven-services/safe-haven-access/#safe-haven-login), providing their name and mobile phone number. If this account is for a person at an organisation which does not currently have access to EPCC SHS, you must also raise a ticket with the service desk to discuss [network access controls](https://docs.eidf.ac.uk/safe-haven-services/network-access-controls/).
 
-### <a id="resetpwd"></a> How can I reset the password for an account
+#### <a id="resetpwd"></a> How can I reset the password for an account
 
 1. [Login to SAFE](#login)
 1. [List the users for your Safe Haven](#listusers)
@@ -138,9 +191,9 @@ Note that this screen is only ever intended to show you the initial password - w
 This will request a new password to be set for the account.
 Once the password reset has been completed, you will be able to view and supply the password to the user in the same manner as for [new users](#regusers).
 
-## <a id="track-usage"></a> Tracking your Project Usage
+### <a id="track-usage"></a> Tracking your Project Usage
 
-### <a id="autorep"></a> How to request automatic project reports
+#### <a id="autorep"></a> How to request automatic project reports
 
 SAFE can be configured to send automatic reports.
 Currently, the EPCC SHS SAFE can send a report listing the project managers for each project.

@@ -1,9 +1,5 @@
 # Training Course Registrations
 
-During November 2024, Training course registrations are changing.
-
-New registrations will now be made directly into SAFE.
-
 You can see all our Upcoming Training events on the [Upcoming Training page](https://www.archer2.ac.uk/training/#upcoming-training)
 
 Click on the Course Title to see more information about the course.
@@ -17,10 +13,6 @@ If you do not already have a SAFE account, you should [create one](../safe-for-u
 Under the Apply menu, select Training courses.
 
 You will see a list of open courses.   
-
-!!! Alert
-    If the course you are interested in does not appear, it may not have been moved to the new system yet.  Find the course on the [Upcoming Training page](https://www.archer2.ac.uk/training/#upcoming-training) and select "Register" and it will take you to the correct registration page
-
 
 Click on the 'more info' link to go to the event page and see the full details.
 

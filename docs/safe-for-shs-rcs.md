@@ -161,6 +161,7 @@ Currently, after creating a new group, you **must** contact your service desk to
 1. Enter the planned expiry date of the account in the text box labelled *ExpiryDate*
 1. Click *Next*
 1. Enter the user's name into the text fields (title & initials are optional). If the email address you entered in the previous step has already been associated with an account in the EPCC SHS SAFE, details will be presented to you and you will not be able to change them. If these details do not match what you were expecting, you should query this with the user and/or service desk.
+1. Enter the user's phone number into the text field. As above, if these details are already stored, you will not be able to change them, and should investigate if they do not match what you were expecting.
 1. Click *Next*
 1. You will be shown the planned username for the user, although you should note that this is not confirmed until the account is created
 1. If your Safe Haven has one or more webproxies available, select whether you wish the user to have access to one in the drop-down labelled *Webproxy*
@@ -177,8 +178,11 @@ You should supply this password to the user using your normal processes.
 Remember that you need to provide the user with passwords for both accounts.
 Note that this screen is only ever intended to show you the initial password - when the user changes the password (as they will be forced to upon first login) this change will not be visible to the SAFE, and only the user will know the new password.
 
+If the user did not previously have a 2FA account recorded in the EPCC SAFE, this will also be shown at this stage.
+For new users, you should also provide them with the username for this account.
+
 !!!important
-    If this account is for a person who does not have any existing accounts with EPCC SHS, you must raise a ticket with the service desk to create a [2FA account for them](https://docs.eidf.ac.uk/safe-haven-services/safe-haven-access/#safe-haven-login), providing their name and mobile phone number. If this account is for a person at an organisation which does not currently have access to EPCC SHS, you must also raise a ticket with the service desk to discuss [network access controls](https://docs.eidf.ac.uk/safe-haven-services/network-access-controls/).
+    If this account is for a person at an organisation which does not currently have access to EPCC SHS, you must raise a ticket with the service desk to discuss [network access controls](https://docs.eidf.ac.uk/safe-haven-services/network-access-controls/).
 
 #### <a id="resetpwd"></a> How can I reset the password for an account
 
